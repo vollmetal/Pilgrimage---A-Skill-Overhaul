@@ -1,0 +1,34 @@
+FormKey: 389F10:Starfield.esm
+EditorID: Outpost_Research_Robots_02
+Name:
+  TargetLanguage: English
+  Value: Robots 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct the Logistics Robot and Power Management Robot at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577E:Starfield.esm
+  RequiredCount: 8
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 30
+- Resource: 27319D:Starfield.esm
+  RequiredCount: 8
+- Resource: 0057C6:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057D7:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057CE:Starfield.esm
+  RequiredCount: 30
+- Resource: 077826:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 0C18EB:Starfield.esm
+NNAM: 0
+MenuSortOrder: 17
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 389F0F:Starfield.esm

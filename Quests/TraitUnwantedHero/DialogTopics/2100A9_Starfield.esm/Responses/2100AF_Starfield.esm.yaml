@@ -1,0 +1,49 @@
+FormKey: 2100AF:Starfield.esm
+Flags: {}
+SharedDialog: 0F68CF:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 22EC7F:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetInCellConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    UseAliases: True
+    FirstParameter: 1706777
+  ComparisonValue: 1
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    UseAliases: True
+    FirstParameter: 2
+  ComparisonValue: 5
+- MutagenObjectType: ConditionFloat
+  CompareOperator: LessThan
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: GetDistanceConditionData
+    RunOnType: QuestAlias
+    Unknown3: 0
+    UseAliases: True
+    FirstParameter: 7
+  ComparisonValue: 5
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 2CFCAD:Starfield.esm

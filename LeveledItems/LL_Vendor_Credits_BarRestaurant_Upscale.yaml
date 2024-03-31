@@ -1,0 +1,74 @@
+FormKey: 03F8D9:Starfield.esm
+EditorID: LL_Vendor_Credits_BarRestaurant_Upscale
+ODTY: 0
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 3000
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasPerkConditionData
+      FirstParameter: 2C5A8E:Starfield.esm
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 3750
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 4500
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 2
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 5250
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 3
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 6000
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 4
+Model:
+  FLLD: 0x01000000

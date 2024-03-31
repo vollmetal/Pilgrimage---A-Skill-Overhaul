@@ -1,0 +1,32 @@
+FormKey: 389F00:Starfield.esm
+EditorID: Food_Research_BeverageDevelopment_04
+Name:
+  TargetLanguage: English
+  Value: Beverage Development 4
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Chai Latte and Boom Pop! Dynamite at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 30
+- Resource: 29B02B:Starfield.esm
+  RequiredCount: 10
+- Resource: 0083EC:Starfield.esm
+  RequiredCount: 30
+- Resource: 2C71F8:Starfield.esm
+  RequiredCount: 10
+- Resource: 2C71F4:Starfield.esm
+  RequiredCount: 10
+- Resource: 2C71F5:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B03E:Starfield.esm
+NNAM: 0
+MenuSortOrder: 11
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389EFF:Starfield.esm

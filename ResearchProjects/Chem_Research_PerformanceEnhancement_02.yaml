@@ -1,0 +1,30 @@
+FormKey: 389EF0:Starfield.esm
+EditorID: Chem_Research_PerformanceEnhancement_02
+Name:
+  TargetLanguage: English
+  Value: Performance Enhancement 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Panopticon and Paramour at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 077827:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057E8:Starfield.esm
+  RequiredCount: 10
+- Resource: 07782C:Starfield.esm
+  RequiredCount: 5
+- Resource: 2C5883:Starfield.esm
+  RequiredCount: 5
+- Resource: 29A85C:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+IconSource: 299591:Starfield.esm
+NNAM: 0
+MenuSortOrder: 1
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EEF:Starfield.esm

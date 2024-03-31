@@ -1,0 +1,25 @@
+FormKey: 2638B4:Starfield.esm
+EditorID: Scanner_SocialSkill_Diplomacy
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Diplomacy
+Keywords:
+- 0914DF:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 142550:Starfield.esm
+  Data:
+    Magnitude: 999
+    Duration: 60
+  Duration: 002D61:Starfield.esm
+  EFIF: 0
+  MUID: 2

@@ -1,0 +1,25 @@
+FormKey: 2638B1:Starfield.esm
+EditorID: Scanner_SocialSkill_Manipulation
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Manipulation
+Keywords:
+- 0F71A7:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 14254D:Starfield.esm
+  Data:
+    Magnitude: 999
+    Duration: 60
+  Duration: 002D61:Starfield.esm
+  EFIF: 0
+  MUID: 2

@@ -1,0 +1,32 @@
+FormKey: 100B8C:Starfield.esm
+EditorID: Outpost_Research_Decoration_03
+Name:
+  TargetLanguage: English
+  Value: Decoration 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct additional furniture and decorations at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FA:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 30
+- Resource: 077821:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057CB:Starfield.esm
+  RequiredCount: 20
+- Resource: 077828:Starfield.esm
+  RequiredCount: 30
+- Resource: 077831:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 0307C3:Starfield.esm
+NNAM: 0
+MenuSortOrder: 7
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 100B8A:Starfield.esm

@@ -1,0 +1,25 @@
+FormKey: 0968CA:Starfield.esm
+EditorID: Scanner_SocialSkill_Xeno_Diplomacy
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Pacify
+Keywords:
+- 0914DF:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 2638B6:Starfield.esm
+  Data:
+    Magnitude: 999
+    Duration: 60
+  Duration: 002D61:Starfield.esm
+  EFIF: 0
+  MUID: 1

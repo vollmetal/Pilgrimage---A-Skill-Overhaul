@@ -1,0 +1,21 @@
+FormKey: 389EF9:Starfield.esm
+EditorID: Food_Research_Mixology_01
+Name:
+  TargetLanguage: English
+  Value: Mixology 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Alien Liquor at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 2
+- Resource: 0057C9:Starfield.esm
+  RequiredCount: 2
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 3
+IconSource: 29B04F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 12
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm

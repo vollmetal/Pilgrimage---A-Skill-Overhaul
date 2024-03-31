@@ -1,0 +1,19 @@
+FormKey: 000801:Pilgrimage.esm
+EditorID: PistolCertSpell_01
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Pistol Certification
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 08C795:Starfield.esm
+  Data:
+    Magnitude: 0.25
+    Duration: 6
+  EFIF: 0
+  MUID: 1

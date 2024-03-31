@@ -1,0 +1,25 @@
+FormKey: 2638B3:Starfield.esm
+EditorID: Scanner_SocialSkill_Instigation
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Instigation
+Keywords:
+- 0914E0:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 14254F:Starfield.esm
+  Data:
+    Magnitude: 999
+    Duration: 30
+  Duration: 002D61:Starfield.esm
+  EFIF: 0
+  MUID: 2

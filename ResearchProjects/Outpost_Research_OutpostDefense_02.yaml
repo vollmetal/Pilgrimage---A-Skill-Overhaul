@@ -1,0 +1,35 @@
+FormKey: 389F0E:Starfield.esm
+EditorID: Outpost_Research_OutpostDefense_02
+Name:
+  TargetLanguage: English
+  Value: Outpost Defense 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Turret Mk III and Security Robots at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577E:Starfield.esm
+  RequiredCount: 8
+- Resource: 203EA8:Starfield.esm
+  RequiredCount: 3
+- Resource: 24577D:Starfield.esm
+  RequiredCount: 2
+- Resource: 0057C6:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 40
+- Resource: 0057CF:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057E9:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 0F5919:Starfield.esm
+NNAM: 0
+MenuSortOrder: 19
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 389F0D:Starfield.esm
+- 389F10:Starfield.esm

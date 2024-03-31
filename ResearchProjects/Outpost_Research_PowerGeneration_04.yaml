@@ -1,0 +1,40 @@
+FormKey: 389F17:Starfield.esm
+EditorID: Outpost_Research_PowerGeneration_04
+Name:
+  TargetLanguage: English
+  Value: Power Generation 4
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Advanced Reactors at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 203EA6:Starfield.esm
+  RequiredCount: 8
+- Resource: 245772:Starfield.esm
+  RequiredCount: 30
+- Resource: 245789:Starfield.esm
+  RequiredCount: 20
+- Resource: 203EA3:Starfield.esm
+  RequiredCount: 10
+- Resource: 29C460:Starfield.esm
+  RequiredCount: 10
+- Resource: 203EA4:Starfield.esm
+  RequiredCount: 5
+- Resource: 24577D:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C4:Starfield.esm
+  RequiredCount: 40
+- Resource: 0057C1:Starfield.esm
+  RequiredCount: 50
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+- Perk: 04CE2D:Starfield.esm
+  RequiredCount: 1
+IconSource: 1C514B:Starfield.esm
+NNAM: 0
+MenuSortOrder: 15
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 389F16:Starfield.esm

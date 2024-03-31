@@ -1,0 +1,1161 @@
+FormKey: 0EFFCF:Starfield.esm
+EditorID: TraitUnwantedHero
+VirtualMachineAdapter:
+  Scripts:
+  - Name: defaultquestchangelocationscript
+    Properties:
+    - MutagenObjectType: ScriptStructListProperty
+      Name: ChangeLocationStages
+      Structs:
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 27C8ED:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 80
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 85
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 80
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 80
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 75
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: SetStageOnEnterLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: PrereqStage
+          Data: 80
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 19A5C2:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 85
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 666
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 015FFE:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 2
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 3
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 010DFB:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 666
+      - Members:
+        - MutagenObjectType: ScriptBoolProperty
+          Name: RequireExactLocation
+        - MutagenObjectType: ScriptIntProperty
+          Name: TurnOffStage
+          Data: 666
+        - MutagenObjectType: ScriptObjectProperty
+          Name: TargetLocation
+          Object: 01295A:Starfield.esm
+        - MutagenObjectType: ScriptIntProperty
+          Name: StageToSet
+          Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_PlayerShip
+      Object: 0174A2:Starfield.esm
+  - Name: DefaultFollowerToggleQuestScript
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialFollower
+      Object: 0EFFCF:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StopFollowConditions
+      Object: 050994:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FollowConditions
+      Object: 050995:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+  Script:
+    Name: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    Properties:
+    - MutagenObjectType: ScriptIntProperty
+      Name: FollowPlayerOnStartOdds
+      Data: 40
+    - MutagenObjectType: ScriptObjectProperty
+      Name: LL_Trait_UH_AdoringFanGift
+      Object: 0EFF61:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AkilaCityMarker
+      Object: 0EFFCF:Starfield.esm
+      Alias: 6
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SQ_Followers
+      Object: 00D773:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TRAIT_UnwantedHero
+      Object: 227FD9:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_UH_SpeechChallengeQuest
+      Object: 0ED862:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NewAtlantisMarker
+      Object: 0EFFCF:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_UH_FollowerGlobal
+      Object: 0EFF63:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ToiletPaperRoll01Empty
+      Object: 0F6351:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CREW_EliteCrew_AdoringFan
+      Object: 0078DE:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NATMarker
+      Object: 0EFFCF:Starfield.esm
+      Alias: 14
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_NeonMarker
+      Object: 0EFFCF:Starfield.esm
+      Alias: 7
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_UH_FanClubFee
+      Object: 2100B4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_AdoringFan
+      Object: 0EFFCF:Starfield.esm
+      Alias: 0
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_FanDisplayName
+      Object: 0EFFCF:Starfield.esm
+      Alias: 8
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_UH_WarningMessageEssential
+      Object: 0259F3:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitUnwantedHero_DialogueGreets
+      Object: 0ED80E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Trait_UH_HitGlobal
+      Object: 1E9391:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TraitUnwantedHero_AttackedByPlayer
+      Object: 0ED815:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PotentialCrewFaction
+      Object: 0143A2:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 11
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0011_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 20
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0020_Item_01
+  - Stage: 9
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0009_Item_00
+  - Stage: 2
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0002_Item_00
+  - Stage: 2
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0002_Item_01
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 85
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0085_Item_00
+  - Stage: 40
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0040_Item_00
+  - Stage: 18
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0018_Item_00
+  - Stage: 25
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0025_Item_00
+  - Stage: 15
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0015_Item_00
+  - Stage: 65
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0065_Item_00
+  - Stage: 13
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0013_Item_00
+  - Stage: 16
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0016_Item_00
+  - Stage: 70
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0070_Item_00
+  - Stage: 10
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0010_Item_00
+  - Stage: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0001_Item_00
+  - Stage: 1
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0001_Item_01
+  - Stage: 50
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0050_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 3
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0003_Item_00
+  - Stage: 3
+    StageIndex: 1
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0003_Item_01
+  - Stage: 5
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0005_Item_00
+  - Stage: 14
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0014_Item_00
+  - Stage: 12
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0012_Item_00
+  - Stage: 7
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0007_Item_00
+  - Stage: 17
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0017_Item_00
+  - Stage: 75
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0075_Item_00
+  - Stage: 666
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0666_Item_00
+  - Stage: 999
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_TraitUnwantedHero_000EFFCF
+    FragmentName: Fragment_Stage_0999_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 0EFFCF:Starfield.esm
+      Alias: 2
+    Scripts:
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStage
+        Data: 666
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 75
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1
+  - Property:
+      Name: ''
+      Object: 0EFFCF:Starfield.esm
+      Alias: 14
+    Scripts:
+    - Name: defaultaliasondistancelessthan
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: TargetAlias
+        Object: 0EFFCF:Starfield.esm
+        Alias: 13
+      - MutagenObjectType: ScriptFloatProperty
+        Name: TargetDistance
+        Data: 50
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 75
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 80
+  - Property:
+      Name: ''
+      Object: 0EFFCF:Starfield.esm
+      Alias: 6
+    Scripts:
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 666
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 75
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 3
+  - Property:
+      Name: ''
+      Object: 0EFFCF:Starfield.esm
+      Alias: 7
+    Scripts:
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: TurnOffStageDone
+        Data: 666
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 75
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 2
+  - Property:
+      Name: ''
+      Object: 0EFFCF:Starfield.esm
+      Alias: 0
+    Scripts:
+    - Name: DefaultAliasOnDeath
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 666
+    - Name: defaultaliasonload
+      Properties:
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1000
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 50
+Name:
+  TargetLanguage: English
+  Value: Hero Worshipped
+Data:
+  Flags:
+  - AllowRepeatedStages
+  - 0x10000
+  Priority: 80
+  Unused: 0x000000
+DialogConditions:
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 0078DE:Starfield.esm
+    SecondParameter: 50
+- MutagenObjectType: ConditionFloat
+  Flags:
+  - OR
+  Unknown1: 0x000000
+  Unknown2: 16667
+  Data:
+    MutagenObjectType: GetStageDoneConditionData
+    FirstParameter: 0078DE:Starfield.esm
+    SecondParameter: 9999
+  ComparisonValue: 1
+UnusedConditions: []
+Stages:
+- Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Force Adoring Fan name on start
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 023C01:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 03BD86:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 666
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 9999
+      ComparisonValue: 1
+    Note: Fan to New Atlantis
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 5
+      ComparisonValue: 1
+    Note: 2nd time to city
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 2
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 023C01:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 03BD86:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 666
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 9999
+      ComparisonValue: 1
+    Note: Fan to Neon
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 5
+      ComparisonValue: 1
+    Note: 2nd time to city
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 3
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 023C01:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 03BD86:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetInFactionConditionData
+        RunOnType: QuestAlias
+        Unknown3: 0
+        FirstParameter: 014312:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 666
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 9999
+      ComparisonValue: 1
+    Note: Fan to Akila City
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 5
+      ComparisonValue: 1
+    Note: 2nd time to city
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 4
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Has met the fan once before
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 5
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Initial Convo has ended
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 6
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Adoring Fan has told the player they are married
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 7
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fan was attacked
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 180F0A:Starfield.esm
+- Index: 8
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Exited dialogue early
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 9
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    Note: Adoring Fan is following close
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 11
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Dismiss Fan
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 12
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Adoring Fan - Keeps running into you
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 13
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 036E00:Starfield.esm
+    Note: Dismiss Fan from New Atlantis - New Method
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 14
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 036E00:Starfield.esm
+    Note: Dismiss Fan from Neon - New Method
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 036E00:Starfield.esm
+    Note: Dismiss Fan from Akila - New Method
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 16
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Stop forcegreet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 17
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: IsInDialogueCameraConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: IsInSceneConditionData
+        RunOnType: Reference
+        Reference: 000014:Starfield.esm
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 5
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: GreaterThanOrEqualTo
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 0EFF63:Starfield.esm
+      ComparisonValue: 3
+    Note: Forcegreet
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 18
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 666
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Flags:
+      - OR
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0078DE:Starfield.esm
+        SecondParameter: 9999
+      ComparisonValue: 1
+    Note: Hit Global
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      CompareOperator: NotEqualTo
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 0EFF63:Starfield.esm
+      ComparisonValue: 1
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    Note: Adoring Fan is asked to follow
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetGlobalValueConditionData
+        FirstParameter: 0EFF63:Starfield.esm
+      ComparisonValue: 1
+    Note: Wait to Follow state
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 25
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Conditions:
+    - MutagenObjectType: ConditionFloat
+      Unknown1: 0x000000
+      Unknown2: 17620
+      Data:
+        MutagenObjectType: GetStageDoneConditionData
+        FirstParameter: 0EFFCF:Starfield.esm
+        SecondParameter: 50
+    Note: Adoring Fan told to wait, or just forcegreet Mode removed
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Adoring Fan has moved to a new location and is in forcegreet mode. 4 is follow right away, 3 means waits at TerraBrew
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 40
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fan gives gift
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 50
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Challenge Win - Remove Fan name and display real name
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 60
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Speech Challenge Fail
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 65
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Warning Message
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 70
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fan is asked to prove their loyalty with cold hard cash
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 75
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fan enable
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 80
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Quest start - ready the enable upon return
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 85
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Turn off checks
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Daily gift
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 666
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fan died
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+      AffinityChange: 180F0B:Starfield.esm
+- Index: 999
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Fan ran away
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Disable Fan and Stop Quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases:
+- MutagenObjectType: QuestLocationAlias
+  ID: 3
+  Name: NewAtlantis
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 01295A:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 4
+  Name: akilacity
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 33D2BA:Starfield.esm
+- MutagenObjectType: QuestLocationAlias
+  ID: 5
+  Name: Neon
+  Flags:
+  - AllowCleared
+  ALFG: 0
+  SpecificLocation: 015FFE:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: NewAtlantisMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 0EE078:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: NATMarker
+  Flags:
+  - Optional
+  - AllowDead
+  - AllowDisabled
+  - AllowReserved
+  ALFG: 0
+  Location:
+    AliasID: 3
+    RefType: 0F68DA:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: AkilaCityMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 4
+    RefType: 0EE078:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: NeonMarker
+  Flags:
+  - Optional
+  - AllowDisabled
+  ALFG: 0
+  Location:
+    AliasID: 5
+    RefType: 0EE078:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  Name: AdoringFan
+  Flags:
+  - AllowDisabled
+  - Protected
+  - InitiallyDisabled
+  ALFG: 0
+  UniqueActor: 0EFF66:Starfield.esm
+  Factions:
+  - 106C31:Starfield.esm
+  PackageData:
+  - 0EDF04:Starfield.esm
+  - 0259F4:Starfield.esm
+  - 0EDF03:Starfield.esm
+  - 0EDF02:Starfield.esm
+  - 15F42E:Starfield.esm
+  - 089605:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: FanDisplayName
+  Flags:
+  - Optional
+  - UsesStoredText
+  ALFG: 0
+  DisplayName: 0ED39F:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestCollectionAlias
+  Collection:
+  - ID: 12
+    ReferenceAlias:
+      ID: 12
+      Name: ActiveFollowers
+      Flags:
+      - Optional
+      - ExternalAliasLinked
+      ALFG: 0
+      External:
+        Quest: 00D773:Starfield.esm
+        AliasID: 17
+      VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Player
+  Flags:
+  - Optional
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null

@@ -1,0 +1,21 @@
+FormKey: 389F22:Starfield.esm
+EditorID: Weapon_Research_Grip_01
+Name:
+  TargetLanguage: English
+  Value: Grip and Stock Mods 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to build Grip and Stock mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 3
+- Resource: 0057CB:Starfield.esm
+  RequiredCount: 3
+- Resource: 07782D:Starfield.esm
+  RequiredCount: 3
+IconSource: 2634C3:Starfield.esm
+NNAM: 0
+MenuSortOrder: 2
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm

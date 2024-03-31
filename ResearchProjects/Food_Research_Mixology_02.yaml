@@ -1,0 +1,28 @@
+FormKey: 389EFA:Starfield.esm
+EditorID: Food_Research_Mixology_02
+Name:
+  TargetLanguage: English
+  Value: Mixology 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Colonel's Choice and Lumberjack Julep at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 10
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B02D:Starfield.esm
+  RequiredCount: 5
+- Resource: 2C7231:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B04D:Starfield.esm
+NNAM: 0
+MenuSortOrder: 13
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389EF9:Starfield.esm

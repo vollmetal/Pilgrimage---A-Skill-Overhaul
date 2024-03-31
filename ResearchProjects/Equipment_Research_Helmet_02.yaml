@@ -1,0 +1,30 @@
+FormKey: 178D1C:Starfield.esm
+EditorID: Equipment_Research_Helmet_02
+Name:
+  TargetLanguage: English
+  Value: Helmet Mods 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to build improved helmet mods at a Spacesuit Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245778:Starfield.esm
+  RequiredCount: 5
+- Resource: 24577E:Starfield.esm
+  RequiredCount: 5
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 8
+- Resource: 0057C6:Starfield.esm
+  RequiredCount: 10
+- Resource: 077828:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 1
+IconSource: 1E2B17:Starfield.esm
+NNAM: 0
+MenuSortOrder: 1
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm
+RequiredProjects:
+- 178D1B:Starfield.esm

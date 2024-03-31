@@ -1,0 +1,30 @@
+FormKey: 389F26:Starfield.esm
+EditorID: Weapon_Research_Receiver_02
+Name:
+  TargetLanguage: English
+  Value: Receiver Mods 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to build master-level Receiver mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245789:Starfield.esm
+  RequiredCount: 8
+- Resource: 245787:Starfield.esm
+  RequiredCount: 5
+- Resource: 0057CA:Starfield.esm
+  RequiredCount: 20
+- Resource: 077826:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777F9:Starfield.esm
+  RequiredCount: 20
+RequiredPerks:
+- Perk: 2C890C:Starfield.esm
+  RequiredCount: 1
+IconSource: 057196:Starfield.esm
+NNAM: 0
+MenuSortOrder: 18
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm
+RequiredProjects:
+- 389F25:Starfield.esm

@@ -1,0 +1,26 @@
+FormKey: 0C11A5:Starfield.esm
+EditorID: Equipment_Research_Backpack_01
+Name:
+  TargetLanguage: English
+  Value: Pack Mods 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to build improved pack mods at a Spacesuit Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245785:Starfield.esm
+  RequiredCount: 5
+- Resource: 245788:Starfield.esm
+  RequiredCount: 8
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057D8:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 1
+IconSource: 2EDF1F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 6
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm

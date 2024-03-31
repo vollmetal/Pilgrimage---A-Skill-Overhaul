@@ -1,0 +1,15 @@
+FormKey: 244030:Starfield.esm
+Flags: {}
+Responses:
+- Emotion: None
+  WEMFile: 6160556
+  Text:
+    TargetLanguage: English
+    Value: It's a unique recipe, amazingly well balanced, with just the right amount of kick.
+  ScriptNotes: ''
+  Edits: ''
+  AlternateLipText: ''
+  TextHash: 0x20225AFF856AD601
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 2CFCAD:Starfield.esm

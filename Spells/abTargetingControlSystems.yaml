@@ -1,0 +1,26 @@
+FormKey: 15C59B:Starfield.esm
+EditorID: abTargetingControlSystems
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Targeting Control Systems
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Ability
+Effects:
+- BaseEffect: 0B073A:Starfield.esm
+  Data:
+    Magnitude: 1.25
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 1

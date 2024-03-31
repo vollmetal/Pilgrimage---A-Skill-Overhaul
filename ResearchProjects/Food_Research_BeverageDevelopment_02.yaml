@@ -1,0 +1,30 @@
+FormKey: 389EFE:Starfield.esm
+EditorID: Food_Research_BeverageDevelopment_02
+Name:
+  TargetLanguage: English
+  Value: Beverage Development 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare an Alien Energy Drink and Sunray Tonic at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 5
+- Resource: 0057E7:Starfield.esm
+  RequiredCount: 5
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 5
+- Resource: 29F3FD:Starfield.esm
+  RequiredCount: 10
+- Resource: 3B7117:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B04C:Starfield.esm
+NNAM: 0
+MenuSortOrder: 9
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389EFD:Starfield.esm

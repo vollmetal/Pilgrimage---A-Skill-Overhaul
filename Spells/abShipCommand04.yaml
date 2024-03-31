@@ -1,0 +1,18 @@
+FormKey: 009B29:Starfield.esm
+EditorID: abShipCommand04
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Ship Command Ability
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Ability
+Effects:
+- BaseEffect: 009B20:Starfield.esm
+  Data:
+    Magnitude: 7
+  EFIF: 0
+  MUID: 1

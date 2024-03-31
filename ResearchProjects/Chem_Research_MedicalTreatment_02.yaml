@@ -1,0 +1,30 @@
+FormKey: 389EEB:Starfield.esm
+EditorID: Chem_Research_MedicalTreatment_02
+Name:
+  TargetLanguage: English
+  Value: Medical Treatment 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Analgesic Poultice and Boudicca at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782A:Starfield.esm
+  RequiredCount: 10
+- Resource: 077829:Starfield.esm
+  RequiredCount: 10
+- Resource: 077820:Starfield.esm
+  RequiredCount: 10
+- Resource: 2A5024:Starfield.esm
+  RequiredCount: 5
+- Resource: 29CAD9:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+IconSource: 29959F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 5
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EEA:Starfield.esm

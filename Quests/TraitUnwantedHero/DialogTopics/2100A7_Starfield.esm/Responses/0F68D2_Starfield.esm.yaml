@@ -1,0 +1,21 @@
+FormKey: 0F68D2:Starfield.esm
+Flags: {}
+SharedDialog: 0EFFA0:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 22EC7F:Starfield.esm
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    RunOnType: Reference
+    Reference: 000014:Starfield.esm
+    FirstParameter: 2CFCAD:Starfield.esm
+StartScenePhase: ''
+SubtitlePriority: Low
+Perk: 22EC75:Starfield.esm

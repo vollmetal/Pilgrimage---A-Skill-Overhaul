@@ -1,0 +1,28 @@
+FormKey: 389EED:Starfield.esm
+EditorID: Chem_Research_MedicalTreatment_04
+Name:
+  TargetLanguage: English
+  Value: Medical Treatment 4
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Junk Flush and Panacea at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 077830:Starfield.esm
+  RequiredCount: 5
+- Resource: 07782C:Starfield.esm
+  RequiredCount: 20
+- Resource: 29CAD9:Starfield.esm
+  RequiredCount: 10
+- Resource: 29A847:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+IconSource: 2995A3:Starfield.esm
+NNAM: 0
+MenuSortOrder: 7
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EEC:Starfield.esm

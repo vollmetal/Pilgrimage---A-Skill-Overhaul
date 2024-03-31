@@ -1,0 +1,179 @@
+FormKey: 21D05B:Starfield.esm
+EditorID: PlayerSkills_Magazines
+VirtualMachineAdapter:
+  Script:
+    Name: Fragments:Quests:QF_PlayerSkills_Magazines_0021D05B
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Astrophysics
+      Object: 27CBBB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Ballistics
+      Object: 2CFCAB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Bargaining
+      Object: 2CFCAF:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: BotanyBonus
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: BotanyRank
+      Object: 22ED94:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CarryWeight
+      Object: 0002DC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Diplomacy
+      Object: 2C59E1:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Dueling
+      Object: 2CFCB0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Fitness
+      Object: 2CE2DD:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: FitnessBonus
+      Data: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraMineralCommonMax
+      Object: 27A591:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraMineralExoticMax
+      Object: 27A590:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraMineralRareMax
+      Object: 27A58F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraMineralUncommonMax
+      Object: 27A58E:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraPlantCommonMax
+      Object: 27A58C:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraPlantExoticMax
+      Object: 27A58A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraPlantRareMax
+      Object: 27A588:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: FloraPlantUncommonMax
+      Object: 27A586:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Gastronomy
+      Object: 2CFCAD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Geology
+      Object: 2CE29F:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: GeologyBonus
+      Data: 1
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Health
+      Object: 0002D4:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: InformationSystems
+      Object: 2CE2E2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Lasers
+      Object: 2C59DD:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Medicine
+      Object: 2CE2DF:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Oxygen
+      Object: 0002D5:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Payloads
+      Object: 2D9068:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Persuasion
+      Object: 22EC82:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Piloting
+      Object: 2CFCAC:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: PistolCertification
+      Object: 27DF98:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ScanningPowerLevel
+      Object: 270297:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Scavenging
+      Object: 28B853:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Stealth
+      Object: 2CFCB2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Textiles
+      Object: 27DF8D:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainingCombat
+      Object: 27DF9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainingPhysical
+      Object: 28AE4F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainingScience
+      Object: 27DF91:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainingSocial
+      Object: 28B852:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: TrainingTechnology
+      Object: 27CBC0:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WeightLifting
+      Object: 2C59D9:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: WeightLiftingBonus
+      Data: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Wellness
+      Object: 2CE2E1:Starfield.esm
+    - MutagenObjectType: ScriptIntProperty
+      Name: WellnessBonus
+      Data: 10
+    - MutagenObjectType: ScriptObjectProperty
+      Name: ZoologyRank
+      Object: 22ED93:Starfield.esm
+  Fragments:
+  - Stage: 103
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_PlayerSkills_Magazines_0021D05B
+    FragmentName: Fragment_Stage_0103_Item_00
+Name:
+  TargetLanguage: English
+  Value: Player Skills Magazines
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  Priority: 10
+  Unused: 0x000000
+UnusedConditions: []
+Stages:
+- Index: 101
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: GRUNT, rank 1
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 102
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: GRUNT, rank 2
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 103
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: GRUNT, rank 3
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Aliases: []

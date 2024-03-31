@@ -1,0 +1,23 @@
+FormKey: 389F11:Starfield.esm
+EditorID: Outpost_Research_Manufacturing_01
+Name:
+  TargetLanguage: English
+  Value: Manufacturing 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Simple Fabricators, Small Warehouse modules, and Inter-System Cargo Links at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 2
+- Resource: 245775:Starfield.esm
+  RequiredCount: 3
+- Resource: 0057C7:Starfield.esm
+  RequiredCount: 3
+- Resource: 07782D:Starfield.esm
+  RequiredCount: 3
+IconSource: 27319F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 0
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm

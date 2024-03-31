@@ -1,0 +1,25 @@
+FormKey: 1BEACA:Starfield.esm
+EditorID: Scanner_SocialSkill_Robotics_Manipulation
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Control
+Keywords:
+- 0F71A7:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 1BEACB:Starfield.esm
+  Data:
+    Magnitude: 999
+    Duration: 60
+  Duration: 002D61:Starfield.esm
+  EFIF: 0
+  MUID: 1

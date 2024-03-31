@@ -1,0 +1,18 @@
+FormKey: 000805:Pilgrimage.esm
+EditorID: ShotgunCertKnockdownSpell_01
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Shotgun Certification
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 000806:Pilgrimage.esm
+  Data:
+    Magnitude: 1
+  EFIF: 0
+  MUID: 1

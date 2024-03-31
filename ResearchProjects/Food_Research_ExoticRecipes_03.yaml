@@ -1,0 +1,30 @@
+FormKey: 389F07:Starfield.esm
+EditorID: Food_Research_ExoticRecipes_03
+Name:
+  TargetLanguage: English
+  Value: Exotic Recipes 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Alien Pie, Star Cluster Marsala, and Stellar Kebabs at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 122EB9:Starfield.esm
+  RequiredCount: 5
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 10
+- Resource: 077821:Starfield.esm
+  RequiredCount: 20
+- Resource: 29B02F:Starfield.esm
+  RequiredCount: 10
+- Resource: 2C7C0A:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 122E95:Starfield.esm
+NNAM: 0
+MenuSortOrder: 6
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389F06:Starfield.esm

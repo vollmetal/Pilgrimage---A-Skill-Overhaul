@@ -1,0 +1,34 @@
+FormKey: 389F08:Starfield.esm
+EditorID: Food_Research_ExoticRecipes_04
+Name:
+  TargetLanguage: English
+  Value: Exotic Recipes 4
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Galaxy Lo Mein and Nebula Wat at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 122EB9:Starfield.esm
+  RequiredCount: 10
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 30
+- Resource: 0777E6:Starfield.esm
+  RequiredCount: 40
+- Resource: 29B034:Starfield.esm
+  RequiredCount: 20
+- Resource: 29B033:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B036:Starfield.esm
+  RequiredCount: 20
+- Resource: 29B032:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 122E96:Starfield.esm
+NNAM: 0
+MenuSortOrder: 7
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389F07:Starfield.esm

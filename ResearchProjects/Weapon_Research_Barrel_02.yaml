@@ -1,0 +1,26 @@
+FormKey: 389F19:Starfield.esm
+EditorID: Weapon_Research_Barrel_02
+Name:
+  TargetLanguage: English
+  Value: Barrel Mods 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to build improved Barrel mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0057C4:Starfield.esm
+  RequiredCount: 5
+- Resource: 0057CB:Starfield.esm
+  RequiredCount: 10
+- Resource: 0777F9:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2C890C:Starfield.esm
+  RequiredCount: 1
+IconSource: 032D7A:Starfield.esm
+NNAM: 0
+MenuSortOrder: 1
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm
+RequiredProjects:
+- 389F18:Starfield.esm

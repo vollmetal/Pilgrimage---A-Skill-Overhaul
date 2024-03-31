@@ -1,0 +1,34 @@
+FormKey: 389F12:Starfield.esm
+EditorID: Outpost_Research_Manufacturing_02
+Name:
+  TargetLanguage: English
+  Value: Manufacturing 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Compound Fabricators and Medium Storage modules at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 10
+- Resource: 24577B:Starfield.esm
+  RequiredCount: 5
+- Resource: 245775:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C7:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057C4:Starfield.esm
+  RequiredCount: 20
+- Resource: 07782D:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777F9:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 249BA2:Starfield.esm
+NNAM: 0
+MenuSortOrder: 1
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 389F11:Starfield.esm

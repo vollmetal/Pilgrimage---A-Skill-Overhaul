@@ -1,0 +1,28 @@
+FormKey: 389F28:Starfield.esm
+EditorID: Weapon_Research_Muzzle_02
+Name:
+  TargetLanguage: English
+  Value: Muzzle Mods 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to build superior Muzzle mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 8
+- Resource: 0057C8:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C6:Starfield.esm
+  RequiredCount: 10
+- Resource: 077826:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C890C:Starfield.esm
+  RequiredCount: 1
+IconSource: 2C7F03:Starfield.esm
+NNAM: 0
+MenuSortOrder: 9
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm
+RequiredProjects:
+- 389F27:Starfield.esm

@@ -1,0 +1,21 @@
+FormKey: 389EEF:Starfield.esm
+EditorID: Chem_Research_PerformanceEnhancement_01
+Name:
+  TargetLanguage: English
+  Value: Performance Enhancement 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Amp and Red Trench at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0057EA:Starfield.esm
+  RequiredCount: 2
+- Resource: 0057D1:Starfield.esm
+  RequiredCount: 2
+- Resource: 29F3FD:Starfield.esm
+  RequiredCount: 3
+IconSource: 299592:Starfield.esm
+NNAM: 0
+MenuSortOrder: 0
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm

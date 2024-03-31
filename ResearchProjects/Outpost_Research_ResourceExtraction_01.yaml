@@ -1,0 +1,30 @@
+FormKey: 389F0B:Starfield.esm
+EditorID: Outpost_Research_ResourceExtraction_01
+Name:
+  TargetLanguage: English
+  Value: Resource Extraction 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Commercial Extractors at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 208E99:Starfield.esm
+  RequiredCount: 5
+- Resource: 245788:Starfield.esm
+  RequiredCount: 8
+- Resource: 245775:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057CF:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057D7:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 20A06B:Starfield.esm
+NNAM: 0
+MenuSortOrder: 3
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm

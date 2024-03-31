@@ -1,0 +1,21 @@
+FormKey: 000824:Pilgrimage.esm
+EditorID: abPerkShieldSystemsEffect2
+Name:
+  TargetLanguage: English
+  Value: Ship Shield Max Health
+Keywords:
+- 000823:Pilgrimage.esm
+ActorValue2: 0C1125:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoArea
+- HideInUI
+- PowerAffectsMagnitude
+- Painless
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag> shield health

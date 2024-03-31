@@ -1,0 +1,26 @@
+FormKey: 000802:Pilgrimage.esm
+EditorID: PistolCertSpell_02
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Pistol Certification
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 08C795:Starfield.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 6
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: WornHasKeywordConditionData
+      FirstParameter: 04A0A3:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 1

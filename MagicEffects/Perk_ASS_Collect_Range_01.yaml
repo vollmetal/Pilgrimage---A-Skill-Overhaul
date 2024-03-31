@@ -1,0 +1,19 @@
+FormKey: 000816:Pilgrimage.esm
+EditorID: Perk_ASS_Collect_Range_01
+Name:
+  TargetLanguage: English
+  Value: Perk ASS Collect Range 01
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+UnkownInt2: 3
+CastType: FireAndForget
+TargetType: Touch
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoMagnitude
+- NoArea
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: Used by Shotgun Certification skill to check for and apply knockdown.

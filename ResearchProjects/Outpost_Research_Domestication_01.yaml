@@ -1,0 +1,30 @@
+FormKey: 3E3D4D:Starfield.esm
+EditorID: Outpost_Research_Domestication_01
+Name:
+  TargetLanguage: English
+  Value: Domestication 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct the Commercial Animal Husbandry Facility at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245786:Starfield.esm
+  RequiredCount: 5
+- Resource: 245775:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 30
+- Resource: 07782D:Starfield.esm
+  RequiredCount: 10
+- Resource: 077828:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+- Perk: 2C5552:Starfield.esm
+  RequiredCount: 1
+IconSource: 0F5911:Starfield.esm
+NNAM: 0
+MenuSortOrder: 10
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
