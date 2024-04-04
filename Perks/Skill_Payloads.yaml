@@ -1,0 +1,59 @@
+FormKey: 143B6B:Starfield.esm
+EditorID: Skill_Payloads
+Name:
+  TargetLanguage: English
+  Value: Payloads
+Description:
+  TargetLanguage: English
+  Value: Any pilot can haul cargo, but it takes special determination and training to maximize cargo space.
+Categroy: Tech
+SkillGroup: Advanced
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_Payloads
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModShipCargoMax
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Ship cargo holds have 20% more capacity.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipCargoMax
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.3
+  Description:
+    TargetLanguage: English
+    Value: Ship cargo holds have 30% more capacity.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipCargoMax
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.4
+  Description:
+    TargetLanguage: English
+    Value: Ship cargo holds have 40% more capacity.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipCargoMax
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Ship cargo holds have 50% more capacity.

@@ -1,0 +1,1345 @@
+FormKey: 2C59DF:Starfield.esm
+EditorID: Skill_Boxing
+Name:
+  TargetLanguage: English
+  Value: Boxing
+Description:
+  TargetLanguage: English
+  Value: Once considered a "sport of kings," boxing is still practiced as a recreational competitive activity, but its combat applications can't be denied.
+Categroy: Physical
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Boxing
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModPowerAttackOxygen
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.75
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 2.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 2.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 2.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 2.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 2.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 2.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 2.7
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 2.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 2.9
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: Unarmed attacks do 2x damage and 10% more damage every 10 levels up to 3x damage at level 90. 25% less O2 used when using a power attack.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModPowerAttackOxygen
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 2.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 13
+    Modification: Multiply
+    Value: 2.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 14
+    Modification: Multiply
+    Value: 3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 15
+    Modification: Multiply
+    Value: 2.9
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 16
+    Modification: Multiply
+    Value: 2.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 17
+    Modification: Multiply
+    Value: 2.7
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 18
+    Modification: Multiply
+    Value: 2.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 19
+    Modification: Multiply
+    Value: 2.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 20
+    Modification: Multiply
+    Value: 2.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 21
+    Modification: Multiply
+    Value: 2.3
+  Description:
+    TargetLanguage: English
+    Value: 50% less O2 used when using a power attack.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModPowerAttackOxygen
+    PerkConditionTabCount: 2
+    PerkEntryID: 22
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 23
+    Modification: Multiply
+    Value: 2.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 24
+    Modification: Multiply
+    Value: 2.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 25
+    Modification: Multiply
+    Value: 2.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 26
+    Modification: Multiply
+    Value: 2.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 27
+    Modification: Multiply
+    Value: 2.7
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 28
+    Modification: Multiply
+    Value: 2.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 29
+    Modification: Multiply
+    Value: 2.9
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 30
+    Modification: Multiply
+    Value: 3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 31
+    Modification: Multiply
+    Value: 2.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 32
+    Modification: Multiply
+    Value: 2.2
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsInCombatConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsRunningConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsWeaponInListConditionData
+          FirstParameter: 168673:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSprintOxygenDrainRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 33
+    ActorValue: 147E2D:Starfield.esm
+    Value: 0.7
+    Modification: MultiplyAVMult
+  Description:
+    TargetLanguage: English
+    Value: While unarmed, running consumes 30% less O2.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModPowerAttackOxygen
+    PerkConditionTabCount: 2
+    PerkEntryID: 34
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 35
+    Modification: Multiply
+    Value: 2.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 10
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 36
+    Modification: Multiply
+    Value: 2.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 37
+    Modification: Multiply
+    Value: 3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 90
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 38
+    Modification: Multiply
+    Value: 2.9
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 80
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 39
+    Modification: Multiply
+    Value: 2.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 70
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 40
+    Modification: Multiply
+    Value: 2.7
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 60
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 41
+    Modification: Multiply
+    Value: 2.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 50
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 42
+    Modification: Multiply
+    Value: 2.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 40
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 43
+    Modification: Multiply
+    Value: 2.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: GreaterThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 20
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetLevelConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+        ComparisonValue: 30
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 44
+    Modification: Multiply
+    Value: 2.3
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 15
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpell
+    PerkConditionTabCount: 3
+    PerkEntryID: 45
+    Spell: 16866A:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyActorValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsInCombatConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsRunningConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsWeaponInListConditionData
+          FirstParameter: 168673:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSprintOxygenDrainRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 46
+    ActorValue: 147E2D:Starfield.esm
+    Value: 0.7
+    Modification: MultiplyAVMult
+  Description:
+    TargetLanguage: English
+    Value: Unarmed attacks have a 15% chance to knock down opponents.

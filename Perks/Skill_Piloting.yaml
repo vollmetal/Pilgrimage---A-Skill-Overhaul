@@ -1,0 +1,139 @@
+FormKey: 2CFCAC:Starfield.esm
+EditorID: Skill_Piloting
+Name:
+  TargetLanguage: English
+  Value: Piloting
+Description:
+  TargetLanguage: English
+  Value: As more people journey into space, the number of those certified to effectively pilot various types of spacecraft has increased dramatically.
+Categroy: Tech
+SkillGroup: Basic
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_Piloting
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModShipTurnSpeedRegularMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModShipTurnSpeedBoostMode
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Ship turning speed is increased by 25%
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipTurnSpeedRegularMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipTurnSpeedBoostMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipTurnSpeedThrusterMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipTurnSweetSpot
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Ship turning rate and maneuverability are increased by 50%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipTurnSpeedRegularMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipTurnSpeedBoostMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipTurnSpeedThrusterMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipTurnSweetSpot
+    PerkConditionTabCount: 1
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: SetHighestPilotableClassRating
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Unlock the ability to pilot Class B ships.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipTurnSpeedRegularMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipTurnSpeedBoostMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipTurnSpeedThrusterMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 13
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipTurnSweetSpot
+    PerkConditionTabCount: 1
+    PerkEntryID: 14
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: SetHighestPilotableClassRating
+    PerkConditionTabCount: 1
+    PerkEntryID: 15
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Unlock the ability to pilot Class C ships.

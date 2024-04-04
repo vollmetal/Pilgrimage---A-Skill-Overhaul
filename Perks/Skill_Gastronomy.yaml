@@ -1,0 +1,56 @@
+FormKey: 2C5A94:Starfield.esm
+EditorID: Skill_Gastronomy
+Name:
+  TargetLanguage: English
+  Value: Gastronomy
+Description:
+  TargetLanguage: English
+  Value: Access to brand new worlds means access to brand new ingredients, and there is almost no limit to the delicious foods and drinks a talented chef can prepare.
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Gastronomy
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: You can craft specialty food and drinks, and research additional recipes at a Research Lab.
+- Description:
+    TargetLanguage: English
+    Value: You can research and craft gourmet food and drinks.
+- Description:
+    TargetLanguage: English
+    Value: You can research and craft food and drink delicacies.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: ModdedItemHasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 0F4AEC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: ModdedItemHasKeywordConditionData
+          RunOnType: Target
+          FirstParameter: 055ECC:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingFreebieChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Add
+    Value: 50
+  Description:
+    TargetLanguage: English
+    Value: Crafting food and drinks occasionally doesn't use up resources. You can research and craft exotic recipes.

@@ -1,0 +1,366 @@
+FormKey: 2CE2C2:Starfield.esm
+EditorID: Skill_BallisticWeaponSystems
+Name:
+  TargetLanguage: English
+  Value: Conventional Weapon Systems
+Description:
+  TargetLanguage: English
+  Value: While there have been significant advancements in ship-borne weaponry, sometimes the simplest tool is the most effective.
+Categroy: Tech
+SkillGroup: Advanced
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_BallisticWeaponSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Ballistic and energy ship weapons have 25% increased damage to hull and shields respectively.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Ballistic and energy ship weapons have 10% increased critical damage to hulls and shields respectively.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Ballistic and energy ship weapons have 50% increased damage to hull and shields respectively.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Add
+    Value: 20
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Modification: Add
+    Value: 20
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Ballistic and energy ship weapons have 20% increased critical damage to hulls and shields respectively.

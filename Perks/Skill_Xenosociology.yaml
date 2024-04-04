@@ -1,0 +1,276 @@
+FormKey: 2C53B0:Starfield.esm
+EditorID: Skill_Xenosociology
+Name:
+  TargetLanguage: English
+  Value: Xenosociology
+Description:
+  TargetLanguage: English
+  Value: While sentient life has yet to be discovered, the galaxy's alien species are generally intelligent enough to be susceptible to the power of suggestion.
+Categroy: Social
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Xenosociology
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You can force a target alien creature up to 10 levels higher than you to stop fighting for 1 minute.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CC:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CC:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You can force a target alien creature up to 10 levels higher than you to flee for 30 seconds.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CB:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CB:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CC:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You can force a target alien creature up to 10 levels higher than you to attack their allies for 30 seconds.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CD:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CB:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CC:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CD:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CB:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0968CC:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You can force a target creature up to 10 levels higher than you to obey commands for 1 minute.

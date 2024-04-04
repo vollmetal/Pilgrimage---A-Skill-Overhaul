@@ -1,0 +1,121 @@
+FormKey: 2C59E2:Starfield.esm
+EditorID: Skill_EnergyWeaponDissipation
+Name:
+  TargetLanguage: English
+  Value: Energy Weapon Dissipation
+Description:
+  TargetLanguage: English
+  Value: Considering the widespread use of energy weapons in the Settled Systems, specialized training to minimize damage is considered invaluable.
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_EnergyWeaponDissipation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 3
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedIncomingWeaponDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: Energy damage is reduced by 10%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 3
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedIncomingWeaponDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Energy damage is reduced by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 3
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedIncomingWeaponDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.7
+  Description:
+    TargetLanguage: English
+    Value: Energy damage is reduced by 30%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetHealthPercentageConditionData
+        ComparisonValue: 0.5
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 092A84:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModRicochetChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Add
+    Value: 0.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 3
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 060A81:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedIncomingWeaponDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.7
+  Description:
+    TargetLanguage: English
+    Value: 25% chance to reflect energy damage back to an attacker when your health is below 50%.

@@ -1,0 +1,80 @@
+FormKey: 2CFCAE:Starfield.esm
+EditorID: Skill_PainTolerance
+Name:
+  TargetLanguage: English
+  Value: Pain Tolerance
+Description:
+  TargetLanguage: English
+  Value: Pain hurts - but only if you're not strong enough to take it.
+Categroy: Physical
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_PainTolerance
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.95
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModIncomingExplosionDamage
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.95
+  Description:
+    TargetLanguage: English
+    Value: Incoming damage is reduced by 5%
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.9
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModIncomingExplosionDamage
+    PerkEntryID: 3
+    Modification: Add
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: Incoming damage is reduced by 10%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.85
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModIncomingExplosionDamage
+    PerkEntryID: 5
+    Modification: Add
+    Value: 0.85
+  Description:
+    TargetLanguage: English
+    Value: Incoming damage is reduced by 15%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModIncomingExplosionDamage
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Incoming damage is reduced by 20%

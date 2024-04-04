@@ -1,0 +1,94 @@
+FormKey: 2C5560:Starfield.esm
+EditorID: Skill_Astrodynamics
+Name:
+  TargetLanguage: English
+  Value: Astrodynamics
+Description:
+  TargetLanguage: English
+  Value: Advanced technology is one thing, but it takes skill, patience, and a little bit of love to coax even more capability out of a ship's grav drive.
+Categroy: Science
+SkillGroup: Basic
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Science_Astrodynamics
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModShipGravJumpDistance
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Increase grav jump range of jump drives by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipGravJumpFuelCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipGravJumpDistance
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Reduced fuel cost of jump drives by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipGravJumpFuelCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipGravJumpCalculationTime
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipGravJumpDistance
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Grav jumps take 20% less time to calculate
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipGravJumpFuelCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipGravJumpCalculationTime
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipGravJumpDistance
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.4
+  Description:
+    TargetLanguage: English
+    Value: Double all previous bonuses

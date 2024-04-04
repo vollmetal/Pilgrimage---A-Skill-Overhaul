@@ -1,0 +1,45 @@
+FormKey: 27CBC2:Starfield.esm
+EditorID: Skill_PlanetaryHabitation
+Name:
+  TargetLanguage: English
+  Value: Planetary Habitation
+Description:
+  TargetLanguage: English
+  Value: While outpost building is always challenging, doing so on a world with a dangerous environment requires specialized training.
+Categroy: Science
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_PlanetaryHabitation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 901
+  Description:
+    TargetLanguage: English
+    Value: You can build outposts on planets with extreme temperatures (Deep Freeze and Inferno). Increase the maximum number of Outposts you can build by 4.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 902
+  Description:
+    TargetLanguage: English
+    Value: You can build outposts on planets with extreme pressure. Increase the maximum number of Outposts you can build by 8.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 903
+  Description:
+    TargetLanguage: English
+    Value: You can build outposts on planets with toxic or corrosive atmospheres. Increase the maximum number of Outposts you can build by 12.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 904
+  Description:
+    TargetLanguage: English
+    Value: You can build outposts on planets with extreme gravity. Increase the maximum number of Outposts you can build by 16.

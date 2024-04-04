@@ -1,0 +1,68 @@
+FormKey: 2C890D:Starfield.esm
+EditorID: Skill_Leadership
+Name:
+  TargetLanguage: English
+  Value: Leadership
+Description:
+  TargetLanguage: English
+  Value: Teamwork is the cornerstone of galactic survival, and nothing motivates a team more than a trained, decisive leader.
+Categroy: Social
+SkillGroup: Expert
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Social_Leadership
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Companions gain affinity 25% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Companions have 50 more health and 50kg more carrying capacity.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 2BCFFB:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: 'Companions will occasionally heal you when you get low health. '
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1504
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 2BCFFB:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModAffinityGain
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Doubles the bonuses of Combat and Physical Crew Skills on Companions. Companions have a chance to pick themselves up from a downed state.

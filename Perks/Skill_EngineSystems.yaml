@@ -1,0 +1,114 @@
+FormKey: 2CE2DE:Starfield.esm
+EditorID: Skill_EngineSystems
+Name:
+  TargetLanguage: English
+  Value: Engine Systems
+Description:
+  TargetLanguage: English
+  Value: Space is both vast and dangerous, and the ability to push a ship's engine to increase speed can be done safely and effectively, with the right training.
+Categroy: Tech
+SkillGroup: Expert
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_EngineSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModifyPilotedSpaceship
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.1
+  Description:
+    TargetLanguage: English
+    Value: Your ship's top speed is increased by 10%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModifyPilotedSpaceship
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 2
+    EntryPoint: ModifyShipBoostFuel
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 2
+    EntryPoint: ModifyShipBoostRechargeRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Ship boosts last longer and the cooldown is shorter.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModifyPilotedSpaceship
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 2
+    EntryPoint: ModifyShipBoostFuel
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 2
+    EntryPoint: ModifyShipBoostRechargeRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Your ship's top speed is increased by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModifyPilotedSpaceship
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    EntryPoint: ModifyShipBoostFuel
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    EntryPoint: ModifyShipBoostRechargeRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    EntryPoint: ShipBoostDisengagesEnemies
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: While boosting, all enemies disengage the player and can only reacquire them as a target after the player stops boosting.

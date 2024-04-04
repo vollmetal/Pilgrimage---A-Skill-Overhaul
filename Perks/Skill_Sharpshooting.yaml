@@ -1,0 +1,425 @@
+FormKey: 2C53AF:Starfield.esm
+EditorID: Skill_Sharpshooting
+Name:
+  TargetLanguage: English
+  Value: Sharpshooting
+Description:
+  TargetLanguage: English
+  Value: For those who specialize in precise targeting that maximizes damage, combat is often a quickly efficient affair.
+Categroy: Combat
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Sharpshooting
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Increase headshot damage by 50% with semi automatic weapons.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 000810:Pilgrimage.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Add
+    Value: 50
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 000810:Pilgrimage.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpellSelf
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Spell: 00080F:Pilgrimage.esm
+  Description:
+    TargetLanguage: English
+    Value: Headshots with semi automatic weapons increase critical hit chance by 50% for 6 seconds.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 000810:Pilgrimage.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Add
+    Value: 50
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          FirstParameter: 1
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 000810:Pilgrimage.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpellSelf
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Spell: 00080F:Pilgrimage.esm
+  Description:
+    TargetLanguage: English
+    Value: Critical headshots with semi automatic weapons deal 50% more damage
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          FirstParameter: 000810:Pilgrimage.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Add
+    Value: 50
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          FirstParameter: 1
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsLastCombatHitLimbInCategoryConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 1
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasMagicEffectConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 000810:Pilgrimage.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ApplyCombatHitSpellSelf
+    PerkConditionTabCount: 3
+    PerkEntryID: 11
+    Spell: 00080F:Pilgrimage.esm
+  Description:
+    TargetLanguage: English
+    Value: Critical headshots with semi automatic weapons deal double damage

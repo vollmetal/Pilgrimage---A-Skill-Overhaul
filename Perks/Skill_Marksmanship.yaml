@@ -1,0 +1,186 @@
+FormKey: 2C890B:Starfield.esm
+EditorID: Skill_Marksmanship
+Name:
+  TargetLanguage: English
+  Value: Marksmanship
+Description:
+  TargetLanguage: English
+  Value: Perhaps no combat scenario is more frightening, or lethal, as a single-shot weapon wielded by someone skilled in critical shot placement.
+Categroy: Combat
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Marksmanship
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Add
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: Increase critical hit chance with non-automatic ranged weapons by 10%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Semi-automatic weapons deal +25% extra critical damage to enemies.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Add
+    Value: 20
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Increase critical hit chance with non-automatic ranged weapons by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Add
+    Value: 20
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 5
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Critical hits using a non-automatic ranged weapon without a scope do 50% more damage.

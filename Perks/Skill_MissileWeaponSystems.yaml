@@ -1,0 +1,217 @@
+FormKey: 2C5558:Starfield.esm
+EditorID: Skill_MissileWeaponSystems
+Name:
+  TargetLanguage: English
+  Value: Missile Weapon Systems
+Description:
+  TargetLanguage: English
+  Value: In space, few weapons can match the range and destructive power of missiles, especially in the hands of a skilled tactician.
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_MissileWeaponSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Ship missile weapons do 10% more damage, and their Targeting mode cost is reduced by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.6
+  Description:
+    TargetLanguage: English
+    Value: Ship missile weapons do 20% more damage, and their Targeting mode cost is reduced by 40%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.4
+  Description:
+    TargetLanguage: English
+    Value: Ship missile weapons do 30% more damage, and their Targeting mode cost is reduced by 60%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModShipTargetingFireAPCost
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModGunRangeMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointLegendaryMagicEffectEvent
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: OverrideWeaponProjectile
+    PerkConditionTabCount: 2
+    PerkEntryID: 10
+    Projectile: 034078:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Ship missiles have a 20% increased Range, Travel Speed, and Reload Speed.

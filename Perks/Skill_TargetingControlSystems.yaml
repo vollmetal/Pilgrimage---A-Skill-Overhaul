@@ -1,0 +1,91 @@
+FormKey: 2C5559:Starfield.esm
+EditorID: Skill_TargetingControlSystems
+Name:
+  TargetLanguage: English
+  Value: Targeting Control Systems
+Description:
+  TargetLanguage: English
+  Value: Time to lock onto enemy ships is reduced by 15%. Target-locked ships fire at you 10% slower.
+Categroy: 217
+SkillGroup: 10
+CrewAssignment: CrewOutpost
+Flags:
+- PcTrait
+- 0x4
+- 0x40
+PerkIcon: Patch_Technology_TargetingControlSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 123C01:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    Priority: 2
+    EntryPoint: ApplySpellonSpaceshipTargetLockAcquired
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Spell: 147BE8:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 3
+    EntryPoint: ModCriticalChanceonTargetLockedSpaceship
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Add
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You have a 10% increased chance of critically hitting a target-locked ship.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 123C01:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Priority: 2
+    EntryPoint: ApplySpellonSpaceshipTargetLockAcquired
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Spell: 147BE8:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    EntryPoint: ModCriticalChanceonTargetLockedSpaceship
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Priority: 4
+    Ability: 15C59B:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Deal 25% increased damage in targeting mode.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 2CCF94:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 2
+    EntryPoint: ApplySpellonSpaceshipTargetLockAcquired
+    PerkConditionTabCount: 2
+    PerkEntryID: 6
+    Spell: 000813:Pilgrimage.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    EntryPoint: ModCriticalChanceonTargetLockedSpaceship
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Modification: Add
+    Value: 20
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Priority: 4
+    Ability: 000815:Pilgrimage.esm
+  Description:
+    TargetLanguage: English
+    Value: All previous bonuses are doubled.

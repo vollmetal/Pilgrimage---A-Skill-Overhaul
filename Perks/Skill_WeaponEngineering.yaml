@@ -1,0 +1,109 @@
+FormKey: 2C890C:Starfield.esm
+EditorID: Skill_WeaponEngineering
+Name:
+  TargetLanguage: English
+  Value: Weapon Engineering
+Description:
+  TargetLanguage: English
+  Value: Life in the 24th century can be exceedingly dangerous, and the ability to maintain and modify personal weapons can be essential to one's survival.
+Categroy: Science
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_WeaponEngineering
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2CA0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: Unlocks all weapon mod research and decreases crafting cost of weapon mods by 10%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2CA0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Weapon crafting cost is decreased by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2CA0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.7
+  Description:
+    TargetLanguage: English
+    Value: Weapon crafting cost is decreased by 30%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2CA0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingFreebieChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Add
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2CA0A5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.6
+  Description:
+    TargetLanguage: English
+    Value: Weapon crafting cost is decreased by 40% and has a 10% higher chance to not cost resources.

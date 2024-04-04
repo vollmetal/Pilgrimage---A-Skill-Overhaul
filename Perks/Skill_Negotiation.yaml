@@ -1,0 +1,45 @@
+FormKey: 2C555F:Starfield.esm
+EditorID: Skill_Negotiation
+Name:
+  TargetLanguage: English
+  Value: Negotiation
+Description:
+  TargetLanguage: English
+  Value: In certain, more challenging communications, skillfully supplementing words with credits may help achieve the desired results.
+Categroy: Social
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Negotiation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1301
+  Description:
+    TargetLanguage: English
+    Value: You now have access to Bribery in speech challenges.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1302
+  Description:
+    TargetLanguage: English
+    Value: Reduces bribery cost by 25%.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1303
+  Description:
+    TargetLanguage: English
+    Value: Reduces bribery cost by 50%.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1304
+  Description:
+    TargetLanguage: English
+    Value: Occasionally, bribery won't cost any money.

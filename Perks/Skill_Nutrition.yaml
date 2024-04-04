@@ -1,0 +1,173 @@
+FormKey: 2CFCAD:Starfield.esm
+EditorID: Skill_Nutrition
+Name:
+  TargetLanguage: English
+  Value: Nutrition
+Description:
+  TargetLanguage: English
+  Value: Advanced nutritional science is no substitute for good life choices, and knowing how much and when to eat can be just as important as the food itself.
+Categroy: Physical
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Nutrition
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AEC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 055ECC:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_EffectHasKeywordConditionData
+          FirstParameter: 2D88C2:Starfield.esm
+    EntryPoint: ModSpellEffectMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Food and drink research are unlocked. Food and drink are 25% more effective.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AEC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 055ECC:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_EffectHasKeywordConditionData
+          FirstParameter: 2D88C2:Starfield.esm
+    EntryPoint: ModSpellEffectMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Food and drink are now 50% more effective.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AEC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 055ECC:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_EffectHasKeywordConditionData
+          FirstParameter: 2D88C2:Starfield.esm
+    EntryPoint: ModSpellEffectMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.75
+  Description:
+    TargetLanguage: English
+    Value: Food and drink are now 75% more effective.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AEC:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 055ECC:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_EffectHasKeywordConditionData
+          FirstParameter: 2D88C2:Starfield.esm
+    EntryPoint: ModSpellEffectMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Food and drink are now 100% more effective.

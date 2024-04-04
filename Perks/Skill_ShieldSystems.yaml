@@ -1,0 +1,293 @@
+FormKey: 2C2C59:Starfield.esm
+EditorID: Skill_ShieldSystems
+Name:
+  TargetLanguage: English
+  Value: Shield Systems
+Description:
+  TargetLanguage: English
+  Value: Regardless of the power allocated by the reactor, a ship's shields can be further bolstered by direct manipulation of the system's harmonics.
+Categroy: Tech
+SkillGroup: Advanced
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_ShieldSystems
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 1
+    Ability: 23759C:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Your ship has 20% increased shield capacity.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 2
+    Ability: 2268D1:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Your ship has 40% increased shield capacity.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 3
+    Ability: 226A11:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Your ship has 60% increased shield capacity.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C2C59:Starfield.esm
+        ComparisonValue: 4
+    Ability: 226A12:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetActorInShipPilotSeatConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsSpaceshipShieldsDestroyedConditionData
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsCalculatingBaseDamageConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: 13
+          FirstParameter: 042E45:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 146B38:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1557AA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingWeaponDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetActorInShipPilotSeatConditionData
+          FirstParameter: 000014:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsSpaceshipShieldsDestroyedConditionData
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsCalculatingBaseDamageConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          RunOnType: 13
+          FirstParameter: 042E45:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 146B38:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 1557AA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 155C6C:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226B:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02226A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 022269:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 3
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 01EDE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedIncomingWeaponDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0
+  Description:
+    TargetLanguage: English
+    Value: Your shields have a 5% chance to resist 100% of all damage received.

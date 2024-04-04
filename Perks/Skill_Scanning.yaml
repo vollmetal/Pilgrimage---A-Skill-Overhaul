@@ -1,0 +1,154 @@
+FormKey: 2CFCB1:Starfield.esm
+EditorID: Skill_Scanning
+Name:
+  TargetLanguage: English
+  Value: Scanning
+Description:
+  TargetLanguage: English
+  Value: While anyone can use a ship's scanner, it takes a specially trained operator to detect hard-to-find planetary resources, or uncover the details of nearby ships.
+Categroy: Science
+SkillGroup: Advanced
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Science_Scanning
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 601
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnableScanningTargetedShipsPowerAllocation
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnableScanningTargetedShipsCargoValue
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: You can detect uncommon inorganic resources on planet and moon surfaces, and more information about ships in space.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 602
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableScanningTargetedShipsPowerAllocation
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableScanningTargetedShipsCargoValue
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableScanningTargetedShipsCrewCount
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableScanningTargetedShipsHealthValues
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: You can detect rare inorganic resources on planet and moon surfaces, and more specific information about ships in space.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 603
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableScanningTargetedShipsPowerAllocation
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableScanningTargetedShipsCargoValue
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableScanningTargetedShipsCrewCount
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableScanningTargetedShipsHealthValues
+    PerkConditionTabCount: 1
+    PerkEntryID: 9
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableScanningTargetedShipsDamageRating
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: You can detect exotic inorganic resources on planet and moon surfaces, and gain better combat information on ships in space.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 604
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScanningTargetedShipsPowerAllocation
+    PerkConditionTabCount: 1
+    PerkEntryID: 12
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScanningTargetedShipsCargoValue
+    PerkConditionTabCount: 1
+    PerkEntryID: 13
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScanningTargetedShipsCrewCount
+    PerkConditionTabCount: 1
+    PerkEntryID: 14
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScanningTargetedShipsHealthValues
+    PerkConditionTabCount: 1
+    PerkEntryID: 15
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScanningTargetedShipsDamageRating
+    PerkConditionTabCount: 1
+    PerkEntryID: 16
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScanningTargetedShipsWeaponStats
+    PerkConditionTabCount: 1
+    PerkEntryID: 17
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    EntryPoint: EnableScanningTargetedShipsInventory
+    PerkConditionTabCount: 1
+    PerkEntryID: 18
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: You can detect unique inorganic resources on planet and moon surfaces, and gain a complete list of cargo on ships in space.

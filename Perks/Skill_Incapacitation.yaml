@@ -1,0 +1,172 @@
+FormKey: 27DF96:Starfield.esm
+EditorID: Skill_Incapacitation
+Name:
+  TargetLanguage: English
+  Value: Incapacitation
+Description:
+  TargetLanguage: English
+  Value: EM weapons are generally employed to damage robots, but can also be used to render human beings unconscious.
+Categroy: Combat
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Incapacitation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: EM weapons do 25% more damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 10
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: EM weapons have 10% chance to deal 3x EM damage
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 10
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: EM weapons do 50% more damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 20
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPIsDamageTypeConditionData
+          FirstParameter: 023190:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModTypedWeaponAttackDamage
+    PerkConditionTabCount: 4
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: EM weapons have a 20% chance to do 300% EM damage.

@@ -1,0 +1,218 @@
+FormKey: 2C5557:Starfield.esm
+EditorID: Skill_Botany
+Name:
+  TargetLanguage: English
+  Value: Botany
+Description:
+  TargetLanguage: English
+  Value: The scientific study of flora, while important on Earth, became even more essential as humanity began exploring alien worlds.
+Categroy: Science
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Botany
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 401
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xFB0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xFB0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Modingredientsharvested
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Get more common and uncommon organic resources from plants, learn additional info about them from the scanner, and allows some plants to be cultivated at your outposts.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 402
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB5:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Modingredientsharvested
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Get more rare organic resources from plants, and learn information about them more quickly using the scanner.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 403
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xFA0832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB6:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Modingredientsharvested
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Get more exotic organic resources from plants, and learn information about them more quickly using the scanner.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 404
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF90832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB2:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF90832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB4:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF90832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF90832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB6:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xF90832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 06FDB7:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Modingredientsharvested
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 2
+  - MutagenObjectType: PerkEntryPointAddLeveledItem
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xF90832
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 222E03:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: AddHarvestedItems
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Item: 06FDB1:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Get a 25% chance to get a random rare  resource and a separate 25% chance to get a random rare exotic  resource from plants when gathering, and learn information about them more quickly using the scanner.

@@ -1,0 +1,43 @@
+FormKey: 2C53B3:Starfield.esm
+EditorID: Skill_ShipCommand
+Name:
+  TargetLanguage: English
+  Value: Ship Command
+Description:
+  TargetLanguage: English
+  Value: They say a ship is only as good as its crew, but that is contingent upon that crew having the right captain to lead them.
+Categroy: Social
+SkillGroup: Basic
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Social_ShipCommand
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 009B24:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You can have up to four active crew members.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 009B25:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You can have up to six active crew members.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 009B28:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You can have up to eight active crew members.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 009B29:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You can have up to ten active crew members.

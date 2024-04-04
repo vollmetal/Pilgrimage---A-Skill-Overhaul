@@ -1,0 +1,337 @@
+FormKey: 27CBBA:Starfield.esm
+EditorID: Skill_Crippling
+Name:
+  TargetLanguage: English
+  Value: Crippling
+Description:
+  TargetLanguage: English
+  Value: Specifically targeting the pressure points and nerves of various limbs can disable an opponent, limiting their combat effectiveness.
+Categroy: Combat
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Crippling
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutHealthPercent
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: You have a 30% increased chance to down enemies with automatic weapons after they go under 50% health.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutRecoverChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 75
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutHealthPercent
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Human enemies have a 25% increased chance to not naturally recover from a downed state.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: IsBleedingOutConditionData
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutRecoverChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.75
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 25E194:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutHealthPercent
+    PerkConditionTabCount: 2
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Automatic weapons now deal double damage to downed enemies.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsBleedingOutConditionData
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutRecoverChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 0.75
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: WornHasKeywordConditionData
+          RunOnType: Reference
+          Reference: 000014:Starfield.esm
+          FirstParameter: 04A0A2:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModBleedoutHealthPercent
+    PerkConditionTabCount: 2
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: Previous ranks now apply to all enemy types.

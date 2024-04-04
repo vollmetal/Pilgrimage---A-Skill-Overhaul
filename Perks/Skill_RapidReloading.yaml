@@ -1,0 +1,93 @@
+FormKey: 2C555A:Starfield.esm
+EditorID: Skill_RapidReloading
+Name:
+  TargetLanguage: English
+  Value: Rapid Reloading
+Description:
+  TargetLanguage: English
+  Value: In the chaos of combat, the seconds needed to reload your weapon could be the difference between life and death.
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_RapidReloading
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.15
+  Description:
+    TargetLanguage: English
+    Value: Reload all weapons 15% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.3
+  Description:
+    TargetLanguage: English
+    Value: Reload all weapons 30% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPCIsReloadingConditionData
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 50
+    EntryPoint: ModIncomingStagger
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Value: 0
+  Description:
+    TargetLanguage: English
+    Value: 'You have a 50% chance to avoid getting staggered while reloading. '
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModWeaponReloadSpeed
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPCIsReloadingConditionData
+        ComparisonValue: 1
+    EntryPoint: ModIncomingStagger
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Value: 0
+  Description:
+    TargetLanguage: English
+    Value: You can no longer be staggered while reloading.

@@ -1,0 +1,78 @@
+FormKey: 23826F:Starfield.esm
+EditorID: Skill_OutpostManagement
+Name:
+  TargetLanguage: English
+  Value: Outpost Management
+Description:
+  TargetLanguage: English
+  Value: While constructing an outpost offers its own challenges, properly managing that outpost takes a special personality type, and specialized training.
+Categroy: Social
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_OutpostManagement
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 701
+  Description:
+    TargetLanguage: English
+    Value: Additional cargo links can be placed at outposts.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 702
+  Description:
+    TargetLanguage: English
+    Value: Additional robots can be constructed at outposts.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 703
+  Description:
+    TargetLanguage: English
+    Value: Additional crew can be assigned at outposts.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xA3FA31
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 299548:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xA3FA31
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 29954A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0xA3FA31
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 299549:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWorkshopProductionTimer
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: Outpost extractors produce twice as fast.

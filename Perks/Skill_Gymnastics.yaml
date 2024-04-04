@@ -1,0 +1,110 @@
+FormKey: 28AE29:Starfield.esm
+EditorID: Skill_Gymnastics
+Name:
+  TargetLanguage: English
+  Value: Gymnastics
+Description:
+  TargetLanguage: English
+  Value: From navigating the elevations of alien landscapes to exploring derelict ships in Zero-G, gymnastic training is invaluable for improving both safety and maneuverability.
+Categroy: Physical
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Gymnastics
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModFallingDamage
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: Unlock the ability to combat slide. Take 10% less fall damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModFallingDamage
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Priority: 10
+    Ability: 2A4861:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Move faster in Zero-G. Take 20% less fall damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModFallingDamage
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.7
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 5
+    EntryPoint: ModPlayerZeroGWeaponRecoilScale
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Priority: 10
+    Ability: 2A4861:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Priority: 15
+    EntryPoint: ApplyStartMantleSpell
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Spell: 03CD4A:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Move half as much from weapon recoil in zero-g. Take 30% less fall damage. Replenish 15% O2 after mantling.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 19B896:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    EntryPoint: ModFallingDamage
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 5
+    EntryPoint: ModPlayerZeroGWeaponRecoilScale
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Priority: 10
+    Ability: 2A4861:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 20
+    EntryPoint: ApplyStartMantleSpell
+    PerkConditionTabCount: 1
+    PerkEntryID: 9
+    Spell: 038E13:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 25
+    EntryPoint: ApplyStartCombatSlideSpell
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Spell: 24685C:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Increased jump height. Run 40% faster after combat sliding or mantling. Decrease fall damage by 40%.

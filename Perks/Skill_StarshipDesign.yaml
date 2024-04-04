@@ -1,0 +1,26 @@
+FormKey: 2C59DC:Starfield.esm
+EditorID: Skill_StarshipDesign
+Name:
+  TargetLanguage: English
+  Value: Starship Design
+Description:
+  TargetLanguage: English
+  Value: As with "car culture" on Earth centuries ago, there are those who pride themselves on the ability to modify their own spaceships.
+Categroy: Tech
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_StarshipDesign
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: Allows the installation of improved ship modules.
+- Description:
+    TargetLanguage: English
+    Value: Allows the installation of superior ship modules.
+- Description:
+    TargetLanguage: English
+    Value: Allows the installation of cutting-edge ship modules.
+- Description:
+    TargetLanguage: English
+    Value: Allows the installation of experimental ship modules.

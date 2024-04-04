@@ -1,0 +1,164 @@
+FormKey: 2CE2DF:Starfield.esm
+EditorID: Skill_Medicine
+Name:
+  TargetLanguage: English
+  Value: Medicine
+Description:
+  TargetLanguage: English
+  Value: Only through advancements in medical training and technology has humanity been able to withstand the galaxy's many dangers.
+Categroy: Science
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Medicine
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingSpellDuration
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: Med Packs, Trauma Packs, and Emergency Kits restore 10% additional Health 10% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingSpellDuration
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Med Packs, Trauma Packs, and Emergency Kits restore 20% additional Health 20% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.85
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingSpellDuration
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.7
+  Description:
+    TargetLanguage: English
+    Value: Med Packs, Trauma Packs, and Emergency Kits restore 30% additional Health 30% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellHasMagicEffectConditionData
+          FirstParameter: 21DDB8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModIncomingSpellDuration
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: Med Packs, Trauma Packs, and Emergency Kits restore 50% additional Health 50% faster, and have a chance to cure an affliction.

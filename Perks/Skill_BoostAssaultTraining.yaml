@@ -1,0 +1,141 @@
+FormKey: 08C3EE:Starfield.esm
+EditorID: Skill_BoostAssaultTraining
+Name:
+  TargetLanguage: English
+  Value: Boost Assault Training
+Description:
+  TargetLanguage: English
+  Value: Combat training with boost packs allows for more shock and awe tactics.
+Categroy: Tech
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_BoostAssaultTraining
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnableJetpackHover
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Aiming down sights while while boosting lets you hover in place.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableJetpackHover
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Hovering uses 20% less fuel.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 3
+    EntryPoint: EnableJetpackHover
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Deal 20% more damage while hovering.
+- Effects:
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Spell: 2339B2:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    EntryPoint: ApplyJetpackSpell
+    PerkConditionTabCount: 2
+    PerkEntryID: 8
+    Spell: 04AC2B:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 3
+    EntryPoint: EnableJetpackHover
+    PerkConditionTabCount: 1
+    PerkEntryID: 9
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsBoostPackHoveringConditionData
+        ComparisonValue: 1
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: When you boost you have a 15% chance to catch enemies on fire, 25% chance to knock enemies down, and you deal damage to enemies around you.

@@ -1,0 +1,166 @@
+FormKey: 2C53B1:Starfield.esm
+EditorID: Skill_SniperCertification
+Name:
+  TargetLanguage: English
+  Value: Sniper Certification
+Description:
+  TargetLanguage: English
+  Value: Only a trained sniper truly understands all the elements necessary to patiently and effectively neutralize a target at excessive range.
+Categroy: Combat
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_SniperCertification
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModActorScopeStability
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.15
+  Description:
+    TargetLanguage: English
+    Value: Scoped weapons are 15% steadier and have less sway.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModActorScopeStability
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.15
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModScopeHoldBreathOxygenDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: You can hold your breath twice as long with scoped weapons.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 09F425:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Add
+    Value: 25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModActorScopeStability
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.15
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModScopeHoldBreathOxygenDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: Headshots while aiming with a scoped weapon have a +25% critical hit chance.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 09F425:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Add
+    Value: 25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 09F425:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModMyCriticalHitDamageMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModActorScopeStability
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.15
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModScopeHoldBreathOxygenDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: Scoped attacks deal 50% more critical hit damage.

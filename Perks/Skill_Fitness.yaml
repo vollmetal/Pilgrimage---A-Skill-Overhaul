@@ -1,0 +1,55 @@
+FormKey: 2CE2DD:Starfield.esm
+EditorID: Skill_Fitness
+Name:
+  TargetLanguage: English
+  Value: Fitness
+Description:
+  TargetLanguage: English
+  Value: In space, the greatest commodity is oxygen, and the increased lung capacity gained by a regular physical fitness regimen is essential to survival.
+Categroy: Physical
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Fitness
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 24B880:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You have 10% more oxygen available.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 24B881:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You have 20% more oxygen available.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 24B882:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: You have 30% more oxygen available.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 24B883:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModPowerAttackOxygen
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModSprintOxygenDrainRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: Sprinting and power attacks now use 50% less oxygen.

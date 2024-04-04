@@ -1,0 +1,41 @@
+FormKey: 28AE17:Starfield.esm
+EditorID: Skill_EnvironmentalConditioning
+Name:
+  TargetLanguage: English
+  Value: Environmental Conditioning
+Description:
+  TargetLanguage: English
+  Value: In the Settled Systems, even oxygen-rich planets and moons may have an atmosphere that is hazardous to human beings.
+Categroy: Physical
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_EnvironmentalConditioning
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 1CC009:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Gain 10 resistance to environmental damage.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 1E2C17:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Gain 20 resistance to environmental damage.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 1E2C18:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Reduced chance to gain afflictions from environmental damage sources by 7%.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 1E2C19:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Reduced chance to gain afflictions from environmental damage sources by 14%.

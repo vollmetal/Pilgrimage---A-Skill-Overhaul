@@ -1,0 +1,64 @@
+FormKey: 2C59D9:Starfield.esm
+EditorID: Skill_WeightLifting
+Name:
+  TargetLanguage: English
+  Value: Weight Lifting
+Description:
+  TargetLanguage: English
+  Value: Weight training can significantly increase one's ability to carry weapons and equipment, both in space and on the ground.
+Categroy: Physical
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_WeightLifting
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Add
+    Value: 25
+  Description:
+    TargetLanguage: English
+    Value: Increase total carrying capacity by 25 kilograms.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Add
+    Value: 50
+  Description:
+    TargetLanguage: English
+    Value: Increase total carrying capacity by 50 kilograms.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Add
+    Value: 75
+  Description:
+    TargetLanguage: English
+    Value: Increase total carrying capacity by 75 kilograms.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: SetMaxCarryWeight
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Add
+    Value: 100
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModIncomingStagger
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.5
+  Description:
+    TargetLanguage: English
+    Value: Increase total carrying capacity by 100 kilograms. Gain 50% resistance to stagger.

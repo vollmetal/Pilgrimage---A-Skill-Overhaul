@@ -1,0 +1,87 @@
+FormKey: 2AC953:Starfield.esm
+EditorID: Skill_StarshipEngineering
+Name:
+  TargetLanguage: English
+  Value: Starship Engineering
+Description:
+  TargetLanguage: English
+  Value: It takes skilled hands to not only make a ship's systems more resistant to damage, but to repair those systems efficiently when damage does occur.
+Categroy: Tech
+SkillGroup: Expert
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Technology_StarshipEngineering
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModShipSystemRepairRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: All ship systems repair 25% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipSystemRepairRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModShipSystemDamageMitigation
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Ship systems have 25% increased damage mitigation.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipSystemRepairRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModShipSystemDamageMitigation
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: All ship systems repair 50% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipSystemRepairRate
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipSystemFullRepairChance
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Modification: Add
+    Value: 0.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModShipSystemDamageMitigation
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: 10% chance that repairing one block of a system will repair the entire system.

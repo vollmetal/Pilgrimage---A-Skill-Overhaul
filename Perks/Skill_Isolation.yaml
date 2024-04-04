@@ -1,0 +1,228 @@
+FormKey: 2C53AE:Starfield.esm
+EditorID: Skill_Isolation
+Name:
+  TargetLanguage: English
+  Value: Isolation
+Description:
+  TargetLanguage: English
+  Value: By eschewing team tactics and embracing the the advantages of "lone wolf" operations, one can vastly improve their combat effectiveness.
+Categroy: Social
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Isolation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.05
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C1:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModArmorRating
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Add
+    Value: 15
+  Description:
+    TargetLanguage: English
+    Value: Do +5% weapon damage and and all helmets and spacesuits gain 15 Damage Resistance when you don't have a companion or any crew.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C1:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModArmorRating
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Add
+    Value: 30
+  Description:
+    TargetLanguage: English
+    Value: Do +10% weapon damage and all helmets and spacesuits gain 30 Damage Resistance when you don't have a companion or any crew.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.15
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C1:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModArmorRating
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Add
+    Value: 45
+  Description:
+    TargetLanguage: English
+    Value: Do +15% weapon damage and all helmets and spacesuits gain 45 damage resistance when you don't have a companion or any crew.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetGlobalValueConditionData
+          FirstParameter: 208DBE:Starfield.esm
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C1:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 23C7C0:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModArmorRating
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Modification: Add
+    Value: 60
+  Description:
+    TargetLanguage: English
+    Value: Do +20% weapon damage and all helmets and spacesuits gain 60 damage resistance when you don't have a companion or any crew.

@@ -1,0 +1,41 @@
+FormKey: 2CE2E1:Starfield.esm
+EditorID: Skill_Wellness
+Name:
+  TargetLanguage: English
+  Value: Wellness
+Description:
+  TargetLanguage: English
+  Value: By embracing an active lifestyle and good nutrition habits, one may improve their overall sense of health, and even gain prolonged life expectancy.
+Categroy: Physical
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Wellness
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 00BF5D:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: 'Increase your maximum health by 10%. '
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 228EA1:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: 'Increase your maximum health by 20%. '
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 228EA2:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: 'Increase your maximum health by 30%. '
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 228EA3:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: 'Increase your maximum health by 40%. '

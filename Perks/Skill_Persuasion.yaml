@@ -1,0 +1,57 @@
+FormKey: 22EC82:Starfield.esm
+EditorID: Skill_Persuasion
+Name:
+  TargetLanguage: English
+  Value: Persuasion
+Description:
+  TargetLanguage: English
+  Value: In the Settled Systems, the nuanced ability to listen and discuss can often accomplish far more than simply shooting first and asking questions later.
+Categroy: Social
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Persuasion
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModPersuasion_Skill_Player_Success_Chance
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Add
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: 10% increased chance of success when persuading someone.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModPersuasion_Skill_Player_Success_Chance
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Add
+    Value: 20
+  Description:
+    TargetLanguage: English
+    Value: 20% increased chance of success when persuading someone.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModPersuasion_Skill_Player_Success_Chance
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Add
+    Value: 30
+  Description:
+    TargetLanguage: English
+    Value: 30% increased chance of success when persuading someone.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModPersuasion_Skill_Player_Success_Chance
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Add
+    Value: 40
+  Description:
+    TargetLanguage: English
+    Value: 40% increased chance of success when persuading someone.

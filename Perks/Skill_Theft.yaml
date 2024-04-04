@@ -1,0 +1,119 @@
+FormKey: 2C555B:Starfield.esm
+EditorID: Skill_Theft
+Name:
+  TargetLanguage: English
+  Value: Theft
+Description:
+  TargetLanguage: English
+  Value: While not entirely honorable, and certainly not legal, it is nonetheless occasionally necessary to discreetly remove property from someone's person.
+Categroy: Social
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Theft
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: AllowPickpocket
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Unlock the ability to pickpocket targets.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C555B:Starfield.esm
+        ComparisonValue: 2
+    EntryPoint: ModPickpocketChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Add
+    Value: 30
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: AllowPickpocket
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: 30% greater chance to successfully pickpocket.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModPickpocketChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Add
+    Value: 40
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: AllowPickpocket
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: 40% greater chance to successfully pickpocket.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModPickpocketChance
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Add
+    Value: 50
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsWeaponOutConditionData
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: CanPickpocketEquippedItem
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: AllowPickpocket
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: 50% greater chance to successfully pickpocket. Can now pickpocket holstered weapons.

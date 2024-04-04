@@ -1,0 +1,284 @@
+FormKey: 2C5555:Starfield.esm
+EditorID: Skill_Manipulation
+Name:
+  TargetLanguage: English
+  Value: Manipulation
+Description:
+  TargetLanguage: English
+  Value: Recent studies have shown that suggestion is not an art, but a science, and as such can be weaponized to exert control over the susceptible.
+Categroy: Social
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Manipulation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Add
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 002F76:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Add
+    Value: 100
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Add
+    Value: 0
+  Description:
+    TargetLanguage: English
+    Value: You can force a target NPC at or below your level to obey commands for 60 seconds.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 002F76:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Add
+    Value: 100
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Add
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Add
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You can force a target NPC up to 10 levels higher than you to obey commands for 60 seconds.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 002F76:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Add
+    Value: 100
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Add
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Add
+    Value: 20
+  Description:
+    TargetLanguage: English
+    Value: You can force a target NPC up to 20 levels higher than you to obey commands for 60 seconds.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellDuration
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 002F76:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Modification: Add
+    Value: 100
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 11
+    Modification: Add
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 2638B1:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 12
+    Modification: Add
+    Value: 20
+  Description:
+    TargetLanguage: English
+    Value: Manipulated targets now obey commands for 2 minutes.

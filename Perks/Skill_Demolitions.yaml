@@ -1,0 +1,119 @@
+FormKey: 2C5556:Starfield.esm
+EditorID: Skill_Demolitions
+Name:
+  TargetLanguage: English
+  Value: Demolitions
+Description:
+  TargetLanguage: English
+  Value: With the proper adjustment of chemical mixtures, coupled with modifications to the detonation mechanism, explosives can produce an even greater destructive yield.
+Categroy: Combat
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Demolitions
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ShowGrenadeTrajectory
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 1
+    EntryPoint: ModPlayerExplosionScale
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Throwing grenades now shows a trajectory arc. Explosions have a 25% larger radius.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ShowGrenadeTrajectory
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 1
+    EntryPoint: ModPlayerExplosionScale
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Explosives do 25% more damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModIncomingExplosionDamage
+    PerkConditionTabCount: 1
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 0.75
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ShowGrenadeTrajectory
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 1
+    EntryPoint: ModPlayerExplosionScale
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.25
+  Description:
+    TargetLanguage: English
+    Value: Reduce damage taken from explosives by 25%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModPlayerExplosionDamage
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModIncomingExplosionDamage
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Modification: Multiply
+    Value: 0.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ShowGrenadeTrajectory
+    PerkConditionTabCount: 1
+    PerkEntryID: 11
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 1
+    EntryPoint: ModPlayerExplosionScale
+    PerkConditionTabCount: 1
+    PerkEntryID: 12
+    Modification: Multiply
+    Value: 1.5
+  Description:
+    TargetLanguage: English
+    Value: 'All previous bonuses are doubled. '

@@ -1,0 +1,113 @@
+FormKey: 2CFCB2:Starfield.esm
+EditorID: Skill_Stealth
+Name:
+  TargetLanguage: English
+  Value: Stealth
+Description:
+  TargetLanguage: English
+  Value: For a combatant who values discretion above all else, the ability to approach a target while undetected and kill with a silenced weapon is as terrifying as it is effective.
+Categroy: Physical
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Stealth
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModDetectionSneakSkill
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Add
+    Value: 25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnableStealthMeter
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Adds a Stealth Meter. You are 25% more difficult to detect when sneaking. Your sneak attacks deal 10% more damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModDetectionSneakSkill
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Add
+    Value: 50
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableStealthMeter
+    PerkConditionTabCount: 1
+    PerkEntryID: 5
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Upgrades the Stealth Meter to include sound tracking. Your sneak attacks deal 20% more damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModDetectionSneakSkill
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Modification: Add
+    Value: 75
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableStealthMeter
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: You are 75% more difficult to detect when sneaking. Your sneak attacks deal 30% more damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModDetectionSneakSkill
+    PerkConditionTabCount: 2
+    PerkEntryID: 10
+    Modification: Add
+    Value: 100
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableStealthMeter
+    PerkConditionTabCount: 1
+    PerkEntryID: 11
+    Value: 2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModSneakDoorSoundLevel
+    PerkConditionTabCount: 1
+    PerkEntryID: 12
+    Value: 0
+  Description:
+    TargetLanguage: English
+    Value: You are 100% more difficult to detect when sneaking. Your sneak attacks do an additional 40% damage. Doors you interact with while in stealth no longer alert enemies.

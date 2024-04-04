@@ -1,0 +1,64 @@
+FormKey: 04CE2D:Starfield.esm
+EditorID: Skill_SpecialProjects
+Name:
+  TargetLanguage: English
+  Value: Special Projects
+Description:
+  TargetLanguage: English
+  Value: 'Big guns are great, but in the Settled Systems, sometimes the best weapon is simply an old adage: "Knowledge is Power."'
+Categroy: Science
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_SpecialProjects
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: You can research experimental projects at a Research Lab.
+- Description:
+    TargetLanguage: English
+    Value: You can craft rare manufactured components at an Industrial Workbench.
+- Description:
+    TargetLanguage: English
+    Value: You can craft exotic manufactured components at an Industrial Workbench.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 299548:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 29954A:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17624
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 299549:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWorkshopProductionTimer
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: You can craft unique manufactured components at an Industrial Workbench. Outpost extractors produce resources 20% faster.

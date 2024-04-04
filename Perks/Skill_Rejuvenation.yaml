@@ -1,0 +1,41 @@
+FormKey: 28AE13:Starfield.esm
+EditorID: Skill_Rejuvenation
+Name:
+  TargetLanguage: English
+  Value: Rejuvenation
+Description:
+  TargetLanguage: English
+  Value: Utilizing both ancient meditation techniques and newly developed breathing exercises, it's possible for one to actually trigger their body's natural healing ability.
+Categroy: Physical
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Rejuvenation
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 126017:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Regenerate 0.5% of maximum health per second outside of combat.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 126019:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Regenerate 0.75% of maximum health per second outside of combat.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 12601A:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Regenerate 1% of maximum health per second outside of combat. Retain half of your health regeneration in combat.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 12601B:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Regenerate 2% of maximum health per second outside of combat. Retain half of your health regeneration in combat.

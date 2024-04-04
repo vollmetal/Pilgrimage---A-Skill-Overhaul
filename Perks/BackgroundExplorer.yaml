@@ -1,0 +1,19 @@
+FormKey: 22EC79:Starfield.esm
+EditorID: BackgroundExplorer
+Name:
+  TargetLanguage: English
+  Value: Explorer
+Description:
+  TargetLanguage: English
+  Value: They said exploration is a lost art. You didn't listen. As the major factions argued over the space they desperately tried to control, you were busy uncovering the wonders of the Settled Systems.
+Flags:
+- PcPlayable
+- PcBackground
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+BackgroundSkills:
+- 2C59DD:Starfield.esm
+- 2C5560:Starfield.esm
+- 2CFCB1:Starfield.esm

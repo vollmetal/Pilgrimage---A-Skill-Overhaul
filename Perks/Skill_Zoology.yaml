@@ -1,0 +1,149 @@
+FormKey: 2C5552:Starfield.esm
+EditorID: Skill_Zoology
+VirtualMachineAdapter:
+  ScriptFragments:
+    ExtraBindDataVersion: 3
+    Script:
+      Name: Fragments:Perks:PRKF_Zoology_002C5552
+      Properties:
+      - MutagenObjectType: ScriptObjectProperty
+        Name: SQ_Parent
+        Object: 07092C:Starfield.esm
+    Fragments:
+    - Unknown2: 1
+      ScriptName: Fragments:Perks:PRKF_Zoology_002C5552
+      FragmentName: Fragment_Entry_00
+    - Index: 1
+      Unknown2: 1
+      ScriptName: Fragments:Perks:PRKF_Zoology_002C5552
+      FragmentName: Fragment_Entry_01
+    - Index: 2
+      Unknown2: 1
+      ScriptName: Fragments:Perks:PRKF_Zoology_002C5552
+      FragmentName: Fragment_Entry_02
+    - Index: 3
+      Unknown2: 1
+      ScriptName: Fragments:Perks:PRKF_Zoology_002C5552
+      FragmentName: Fragment_Entry_03
+Name:
+  TargetLanguage: English
+  Value: Zoology
+Description:
+  TargetLanguage: English
+  Value: No one could have expected the number of new species encountered on alien worlds, or the importance of those skilled in their behavior and domestication.
+Categroy: Science
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Zoology
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 801
+  - MutagenObjectType: PerkEntryPointAddActivateChoice
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xE80632
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsTrueForConditionFormConditionData
+          FirstParameter: 3C8595:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Activate
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    ButtonLabel:
+      TargetLanguage: English
+      Value: Harvest
+    Flags:
+    - ReplaceDefault
+  Description:
+    TargetLanguage: English
+    Value: Get more common organic resources from creatures and harvest from them without harming them, learn additional info about them from the scanner, and allows you to produce animal resources at your outposts.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 802
+  - MutagenObjectType: PerkEntryPointAddActivateChoice
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xE70632
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsTrueForConditionFormConditionData
+          FirstParameter: 3C8595:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Activate
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    ButtonLabel:
+      TargetLanguage: English
+      Value: Harvest
+    Flags:
+    - ReplaceDefault
+  Description:
+    TargetLanguage: English
+    Value: Get more uncommon organic resources from creatures, and learn information about them more quickly using the scanner.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 803
+  - MutagenObjectType: PerkEntryPointAddActivateChoice
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xE70632
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsTrueForConditionFormConditionData
+          FirstParameter: 3C8595:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Activate
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    ButtonLabel:
+      TargetLanguage: English
+      Value: Harvest
+    Flags:
+    - ReplaceDefault
+  Description:
+    TargetLanguage: English
+    Value: Get more rare organic resources from creatures, and learn information about them more quickly using the scanner.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 804
+  - MutagenObjectType: PerkEntryPointAddActivateChoice
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0xE60632
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsTrueForConditionFormConditionData
+          FirstParameter: 3C8595:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: Activate
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    ButtonLabel:
+      TargetLanguage: English
+      Value: Harvest
+    Flags:
+    - ReplaceDefault
+  Description:
+    TargetLanguage: English
+    Value: Have a 25% of harvesting rare and exotic resources from creatures, and learn information about them more quickly using the scanner.

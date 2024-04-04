@@ -1,0 +1,45 @@
+FormKey: 2CFCAF:Starfield.esm
+EditorID: Skill_Deception
+Name:
+  TargetLanguage: English
+  Value: Deception
+Description:
+  TargetLanguage: English
+  Value: Smuggling and piracy are both immoral and highly illegal, and considered plagues upon the Settled Systems. But certain undercover work may require a certain criminal skillset.
+Categroy: Social
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Bargaining
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1401
+  Description:
+    TargetLanguage: English
+    Value: Ships 10% stronger will automatically surrender to piracy demands. Enemy contraband scans are 10% less effective.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1402
+  Description:
+    TargetLanguage: English
+    Value: Ships 20% stronger will automatically surrender to piracy demands. Enemy contraband scans are 20% less effective.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1403
+  Description:
+    TargetLanguage: English
+    Value: Ships 30% stronger will automatically surrender to piracy demands. Enemy contraband scans are 30% less effective.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1404
+  Description:
+    TargetLanguage: English
+    Value: Ships 50% stronger will automatically surrender to piracy demands. Enemy contraband scans are 50% less effective.

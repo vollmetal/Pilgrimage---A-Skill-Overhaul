@@ -1,0 +1,33 @@
+FormKey: 28B853:Starfield.esm
+EditorID: Skill_Scavenging
+Name:
+  TargetLanguage: English
+  Value: Scavenging
+Description:
+  TargetLanguage: English
+  Value: There are those who can find just about anything, and their success is usually dependent on knowing how, and where, to look.
+Categroy: Social
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Social_Scavenging
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: There's a chance you'll find extra credits when searching containers.
+- Description:
+    TargetLanguage: English
+    Value: There's a chance you'll find extra ammo when searching containers.
+- Description:
+    TargetLanguage: English
+    Value: There's a chance you'll find extra aid items, like Med Packs or chems, when searching containers.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: AllowScanTrackedItems
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: Tracked resources will get highlighted when using the hand scanner.

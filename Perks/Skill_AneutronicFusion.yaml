@@ -1,0 +1,43 @@
+FormKey: 2C2C5A:Starfield.esm
+EditorID: Skill_AneutronicFusion
+Name:
+  TargetLanguage: English
+  Value: Aneutronic Fusion
+Description:
+  TargetLanguage: English
+  Value: It is possible to maximize a ship's energy output by specifically directing the unique nuclear processes that occur within its reactor.
+Categroy: Tech
+SkillGroup: Master
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Science_AneutronicFusion
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Ability: 002359:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Ship reactors produce 1 extra unit of power.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 1
+    Ability: 210438:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Ship reactors produce 2 extra units of power.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Ability: 210439:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Ship reactors produce 3 extra units of power.
+- Effects:
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Ability: 21043A:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Ship reactors produce 5 extra units of power.

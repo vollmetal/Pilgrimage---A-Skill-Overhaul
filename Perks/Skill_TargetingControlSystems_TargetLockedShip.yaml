@@ -1,0 +1,23 @@
+FormKey: 0D00C9:Starfield.esm
+EditorID: Skill_TargetingControlSystems_TargetLockedShip
+Name:
+  TargetLanguage: English
+  Value: Target Locked Ship
+Description:
+  TargetLanguage: English
+  Value: ''
+CrewAssignment: CrewShip
+Flags:
+- 0x4
+- ShowInCrewUi
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModifyWeaponFireRate
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: ''

@@ -1,0 +1,116 @@
+FormKey: 2CE2C0:Starfield.esm
+EditorID: Skill_Chemistry
+Name:
+  TargetLanguage: English
+  Value: Chemistry
+Description:
+  TargetLanguage: English
+  Value: When crafted by the skilled and safety conscious, chems can be used to enhance health and performance across the Settled Systems.
+Categroy: Science
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Chemistry
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: You now have access to more research for chem recipes. Chems you take are 20% stronger.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.3
+  Description:
+    TargetLanguage: English
+    Value: Chems you take are 30% stronger.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.4
+  Description:
+    TargetLanguage: English
+    Value: Chems you take are 40% stronger.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: EPMagic_SpellHasKeywordConditionData
+          FirstParameter: 0F4AE7:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSpellMagnitude
+    PerkConditionTabCount: 4
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: LessThanOrEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetRandomPercentConditionData
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2CE2C0:Starfield.esm
+        ComparisonValue: 4
+    EntryPoint: ModCraftingReturnQuantity
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Chems you take are 50% stronger. You have a 10% chance to craft 2x as many chems.

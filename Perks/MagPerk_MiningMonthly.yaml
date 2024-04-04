@@ -1,0 +1,301 @@
+FormKey: 20B4B6:Starfield.esm
+EditorID: MagPerk_MiningMonthly
+Name:
+  TargetLanguage: English
+  Value: Magazine Perk Mining Monthly
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- PcPlayable
+- 0x20
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 1
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.02
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 2
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 1.04
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 3
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.06
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 4
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.08
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 4
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 5
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 1.1
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 5
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 6
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.12
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 6
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 7
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.14
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 7
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 8
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.16
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 8
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 9
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Modification: Multiply
+    Value: 1.18
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 9
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 20B4B6:Starfield.esm
+        ComparisonValue: 10
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 206772:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.2
+  Description:
+    TargetLanguage: English
+    Value: Permanently increases tool-grip weapon damage by an additional 2%.

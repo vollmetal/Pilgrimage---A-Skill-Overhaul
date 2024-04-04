@@ -1,0 +1,50 @@
+FormKey: 2C59E0:Starfield.esm
+EditorID: Skill_OutpostEngineering
+Name:
+  TargetLanguage: English
+  Value: Outpost Engineering
+Description:
+  TargetLanguage: English
+  Value: Proper construction of habitation modules is essential to one's survival on any alien world.
+Categroy: Science
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_OutpostEngineering
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: You can now research improved outpost modules.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModWorkshopBuildCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Outpost modules are now 20% cheaper to build.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModWorkshopBuildCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.6
+  Description:
+    TargetLanguage: English
+    Value: Outpost modules are now 40% cheaper to build.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModWorkshopBuildCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.4
+  Description:
+    TargetLanguage: English
+    Value: Outpost modules are now 60% cheaper to build.

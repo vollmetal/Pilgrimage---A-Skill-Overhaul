@@ -1,0 +1,62 @@
+FormKey: 27CBC1:Starfield.esm
+EditorID: Skill_Surveying
+Name:
+  TargetLanguage: English
+  Value: Surveying
+Description:
+  TargetLanguage: English
+  Value: Humanity now has access to untold alien worlds, and the ability to decipher all that data while on the ground has become an essential skillset.
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Surveying
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1201
+  Description:
+    TargetLanguage: English
+    Value: Adds an optional zoom to the hand scanner, and scan distance is increased to 20 meters.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1202
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: EnableScannerZoom
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: Adds another level of zoom to the hand scanner, and scan distance is increased to 30 meters.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1203
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: EnableScannerZoom
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: Adds another level of zoom to the hand scanner, and scan distance is increased to 40 meters.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1204
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: EnableScannerZoom
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Value: 4
+  Description:
+    TargetLanguage: English
+    Value: Adds another level of zoom to the hand scanner, and scan distance is increased to 50 meters.

@@ -1,0 +1,57 @@
+FormKey: 146C2C:Starfield.esm
+EditorID: Skill_BoostPackTraining
+Name:
+  TargetLanguage: English
+  Value: Boost Pack Training
+Description:
+  TargetLanguage: English
+  Value: Specialized training and innovations in personal mobility systems have allowed for unfettered exploration on alien worlds.
+Categroy: Tech
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_BoostPackTraining
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Using a boost pack expends 20% less fuel.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Boost packs regenerate fuel 25% faster.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Boost packs now have 20% more thrust.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModJetpackFuelDrainMult
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.6
+  Description:
+    TargetLanguage: English
+    Value: Doubles previous bonuses.

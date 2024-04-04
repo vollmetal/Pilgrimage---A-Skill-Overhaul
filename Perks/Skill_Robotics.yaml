@@ -1,0 +1,344 @@
+FormKey: 2C5553:Starfield.esm
+EditorID: Skill_Robotics
+Name:
+  TargetLanguage: English
+  Value: Robotics
+Description:
+  TargetLanguage: English
+  Value: In an age where robots and autonomous turrets are employed in a combat capacity, the study of robotics can be instrumental in gaining a tactical edge.
+Categroy: Tech
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_Robotics
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2702C9:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 1.1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You deal 10% more damage to Robots and Turrets. You have a 60% chance to force a target robot up to 10 levels higher than you to stop fighting for 1 minute.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2702C9:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 1.2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD75:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 4
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD75:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: >+
+      You deal 20% more damage to Robots and Turrets. You have a 60% chance to force a target robot up to 10 levels higher than you to flee for 1 minute.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2702C9:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD75:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD74:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 7
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD75:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD74:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You deal 30% more damage to Robots and Turrets. You have a 60% chance to force a target robot up to 10 levels higher than you to attack their allies for 1 minute.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2702C9:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 1.3
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD75:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD74:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 1BEACA:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceBase
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 007BE8:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD75:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 0BDD74:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: EPMagic_SpellIsConditionData
+          FirstParameter: 1BEACA:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSocialSkillChanceMaxLevelDelta
+    PerkConditionTabCount: 3
+    PerkEntryID: 11
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: You have a 60% chance to force a target robot up to 10 levels higher than you to obey commands for 1 minute.

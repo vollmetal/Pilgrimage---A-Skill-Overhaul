@@ -1,0 +1,19 @@
+FormKey: 22EC76:Starfield.esm
+EditorID: BackgroundBigGameHunter
+Name:
+  TargetLanguage: English
+  Value: Beast Hunter
+Description:
+  TargetLanguage: English
+  Value: From the Ashta of Akila to the Terrormorphs that plague the whole of the Settled Systems, hostile alien life abounds. You've learned the skills to track them, find them, and take them down.
+Flags:
+- PcPlayable
+- PcBackground
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+BackgroundSkills:
+- 2CE2DD:Starfield.esm
+- 2CFCAB:Starfield.esm
+- 2CFCAD:Starfield.esm

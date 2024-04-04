@@ -1,0 +1,110 @@
+FormKey: 2CE29F:Starfield.esm
+EditorID: Skill_Geology
+Name:
+  TargetLanguage: English
+  Value: Geology
+Description:
+  TargetLanguage: English
+  Value: "Newly discovered minerals mined from alien planets and moons have directly led to some incredible technological advancements.\r\n \r\n"
+Categroy: Science
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_Geology
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 501
+  Description:
+    TargetLanguage: English
+    Value: Get more common and uncommon inorganic resources from surface objects.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 502
+  Description:
+    TargetLanguage: English
+    Value: Get more rare inorganic resources from surface objects.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 503
+  Description:
+    TargetLanguage: English
+    Value: Get more exotic inorganic resources from surface objects.
+- Effects:
+  - MutagenObjectType: PerkEntryPointAddLeveledItem
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x1E0D32
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 222E04:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x1E0D32
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2C3B5B:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: AddHarvestedItems
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Item: 2C3B5C:Starfield.esm
+  - MutagenObjectType: PerkEntryPointAddLeveledItem
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x1E0D32
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 222E04:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x1E0D32
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2C3B59:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: AddHarvestedItems
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Item: 2C3B5E:Starfield.esm
+  - MutagenObjectType: PerkEntryPointAddLeveledItem
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x1E0D32
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 222E04:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x1E0D32
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 2C3B5A:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: AddHarvestedItems
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Item: 2C3B5D:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Get a 25% chance to get a random rare inorganic resource and a separate 25% chance to get a random rare exotic inorganic resource of the same category when gathering.

@@ -1,0 +1,110 @@
+FormKey: 27CBC3:Starfield.esm
+EditorID: Skill_SpacesuitDesign
+Name:
+  TargetLanguage: English
+  Value: Spacesuit Design
+Description:
+  TargetLanguage: English
+  Value: While a basic spacesuit can protect one from the vacuum of space, it takes a specialized design to withstand the rigors of many alien worlds.
+Categroy: Science
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_SpacesuitDesign
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 0657FF:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: You can now research armor, helmet, and pack recipes. Construction of armor, helmet, and pack mods costs 10% less.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 0657FF:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Construction of armor, helmet, and pack mods costs 20% less.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 0657FF:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.7
+  Description:
+    TargetLanguage: English
+    Value: Construction of armor, helmet, and pack mods costs 30% less.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 0657FF:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingCost
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.6
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 0657FF:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModCraftingModFreebieChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 4
+    Modification: Add
+    Value: 10
+  Description:
+    TargetLanguage: English
+    Value: Construction of armor, helmet, and pack mods costs 40% less and has a 10% higher chance to not cost resources.

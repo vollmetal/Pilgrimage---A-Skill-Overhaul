@@ -1,0 +1,64 @@
+FormKey: 2C555C:Starfield.esm
+EditorID: Skill_ResearchMethods
+Name:
+  TargetLanguage: English
+  Value: Research Methods
+Description:
+  TargetLanguage: English
+  Value: By skillfully employing both new and time tested methods, a researcher may complete projects faster, and even gain unexpected insights.
+Categroy: Science
+SkillGroup: Advanced
+Flags:
+- PcPlayable
+PerkIcon: Patch_Science_ResearchMethods
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModResearchCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  Description:
+    TargetLanguage: English
+    Value: Resources required to and complete research projects is reduced by 10%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModResearchCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: Resources required to complete research projects is reduced by 20%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModResearchCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 0.7
+  Description:
+    TargetLanguage: English
+    Value: Resources required to complete research projects is reduced by 30%.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModResearchCritChance
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 2
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModResearchCost
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Modification: Multiply
+    Value: 0.6
+  Description:
+    TargetLanguage: English
+    Value: Sudden developments during research are twice as common. Resources required to complete research projects is reduced by 40%.

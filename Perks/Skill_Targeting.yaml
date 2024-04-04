@@ -1,0 +1,536 @@
+FormKey: 2C59DA:Starfield.esm
+EditorID: Skill_Targeting
+Name:
+  TargetLanguage: English
+  Value: Targeting
+Description:
+  TargetLanguage: English
+  Value: While careful aiming is generally preferred in combat, "shooting from the hip" can prove a fast and deadly alternative with sufficient training.
+Categroy: Combat
+SkillGroup: Expert
+Flags:
+- PcPlayable
+PerkIcon: Patch_Combat_Targeting
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.9
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 07F5AF:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Spell: 07AA32:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Increased accuracy by 10% when shooting without aiming. Marks up to one enemy within 25m that damages you.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 6
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 7
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 8
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 9
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 11
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 12
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 13
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 14
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 15
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 23
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 24
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 2
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Modification: Multiply
+    Value: 0.9
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 1
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 07E7AB:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Spell: 07AA30:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Deal 25% more damage to enemy limbs when not aiming. Marks up to two enemies within 50m that damage you.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 6
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 7
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 8
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 9
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 11
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 12
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 13
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 14
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 15
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 23
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 24
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Modification: Multiply
+    Value: 1.25
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 3
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 6
+    Modification: Multiply
+    Value: 0.9
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 2
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 13BA59:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 7
+    Spell: 07AA2E:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Deal 25% more headshot damage when hip firing. Marks up to three enemies within 75m that damage you.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 2
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 5
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 6
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 7
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 8
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 9
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 10
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 11
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 12
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 13
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 14
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 15
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 23
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 24
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Data:
+          MutagenObjectType: GetHitLocationConditionData
+        ComparisonValue: 1
+    EntryPoint: ModWeaponAttackDamage
+    PerkConditionTabCount: 3
+    PerkEntryID: 8
+    Modification: Multiply
+    Value: 1.5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetPerkRankConditionData
+          FirstParameter: 2C59DA:Starfield.esm
+        ComparisonValue: 4
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetInIronSightsConditionData
+    EntryPoint: ModConeoffireMult
+    PerkConditionTabCount: 2
+    PerkEntryID: 9
+    Modification: Multiply
+    Value: 0.8
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionGlobal
+        CompareOperator: LessThan
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: GetValueConditionData
+          FirstParameter: 502325
+        ComparisonValue: 13BA5A:Starfield.esm
+    EntryPoint: ApplyCombatHitSpellAttacker
+    PerkConditionTabCount: 1
+    PerkEntryID: 10
+    Spell: 07AA2C:Starfield.esm
+  Description:
+    TargetLanguage: English
+    Value: Double all previous bonuses. Marks up to 4 enemies within 100m that damage you.

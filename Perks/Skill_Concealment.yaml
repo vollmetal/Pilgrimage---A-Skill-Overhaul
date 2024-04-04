@@ -1,0 +1,303 @@
+FormKey: 2C555E:Starfield.esm
+EditorID: Skill_Concealment
+Name:
+  TargetLanguage: English
+  Value: Concealment
+Description:
+  TargetLanguage: English
+  Value: Few skills capture the imagination like the ability to remain undetected, used by assassins, special forces operatives, and simple thieves alike for centuries.
+Categroy: Physical
+SkillGroup: Master
+Flags:
+- PcPlayable
+PerkIcon: Patch_Physical_Concealment
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 1
+    Value: 4
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 2
+    Value: 2.5
+  Description:
+    TargetLanguage: English
+    Value: You no longer set off enemy mines. Ranged sneak attacks do 2.5x normal damage and your melee sneak attacks do 4x normal damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 3
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 2
+    EntryPoint: IgnoreRunningDuringDetection
+    PerkConditionTabCount: 1
+    PerkEntryID: 4
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 5
+    Value: 5
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 6
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: Running while sneaking doesn't affect stealth. Ranged sneak attacks do 3x normal damage and your melee sneak attacks do 5x normal damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 7
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 2
+    EntryPoint: IgnoreRunningDuringDetection
+    PerkConditionTabCount: 1
+    PerkEntryID: 8
+    Value: 1
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 2
+    Priority: 3
+    Ability: 19AFE5:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 9
+    Value: 8
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 10
+    Value: 3.5
+  Description:
+    TargetLanguage: English
+    Value: You gain a Chameleon-like ability when completely still and sneaking. Ranged sneak attacks do 3.5x normal damage and your melee sneak attacks do 8x normal damage.
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModMineExplodeChance
+    PerkConditionTabCount: 2
+    PerkEntryID: 11
+    Value: 0
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 2
+    EntryPoint: IgnoreRunningDuringDetection
+    PerkConditionTabCount: 1
+    PerkEntryID: 12
+    Value: 1
+  - MutagenObjectType: PerkAbilityEffect
+    Rank: 3
+    Priority: 3
+    Ability: 059AE7:Starfield.esm
+  - MutagenObjectType: PerkEntryPointSelectSpell
+    Rank: 3
+    Priority: 4
+    EntryPoint: ApplySneakingSpell
+    PerkConditionTabCount: 1
+    PerkEntryID: 13
+    Spell: 1E325A:Starfield.esm
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A5:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 05240E:Starfield.esm
+        ComparisonValue: 1
+      - MutagenObjectType: ConditionFloat
+        Flags:
+        - OR
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 04A0A4:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 14
+    Value: 10
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    Priority: 50
+    Conditions:
+    - RunOnTabIndex: 1
+      Conditions:
+      - MutagenObjectType: ConditionFloat
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: HasKeywordConditionData
+          FirstParameter: 02B714:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: ModSneakAttackMult
+    PerkConditionTabCount: 3
+    PerkEntryID: 15
+    Value: 4
+  Description:
+    TargetLanguage: English
+    Value: Engaging stealth causes distant enemies to lose you. Ranged sneak attacks do 4x normal damage and your melee sneak attacks do 10x normal damage.

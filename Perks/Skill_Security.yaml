@@ -1,0 +1,68 @@
+FormKey: 2CE2E2:Starfield.esm
+EditorID: Skill_Security
+Name:
+  TargetLanguage: English
+  Value: Security
+Description:
+  TargetLanguage: English
+  Value: While the standardized digital locking mechanism is renowned for its security, any code can be broken with the proper training.
+Categroy: Tech
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_Security
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 201
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: SetPlayerGateHacking
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Value: 1
+  Description:
+    TargetLanguage: English
+    Value: You can attempt to hack Advanced locks, and 2 auto attempts can be banked.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 202
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 1
+    EntryPoint: SetPlayerGateHacking
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 2
+  Description:
+    TargetLanguage: English
+    Value: You can attempt to hack Expert locks, and 3 auto attempts can be banked. Rings now turn blue when the pick can be slotted.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 203
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: SetPlayerGateHacking
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: You can attempt to hack Master-level locks, and 4 auto attempts can be banked.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 204
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: SetPlayerGateHacking
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Value: 3
+  Description:
+    TargetLanguage: English
+    Value: Expend a digipick to eliminate keys that aren't required to solve the puzzle. 5 auto attempts can be banked.

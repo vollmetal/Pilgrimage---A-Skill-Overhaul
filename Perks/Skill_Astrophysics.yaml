@@ -1,0 +1,59 @@
+FormKey: 27CBBB:Starfield.esm
+EditorID: Skill_Astrophysics
+Name:
+  TargetLanguage: English
+  Value: Astrophysics
+Description:
+  TargetLanguage: English
+  Value: A ship's scanner receives vast amounts of data, but it takes a trained mind to efficiently analyze it all.
+Categroy: Science
+SkillGroup: Expert
+CrewAssignment: CrewShip
+Flags:
+- PcPlayable
+- ShowInCrewUi
+PerkIcon: Patch_Science_Astrophysics
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1101
+  Description:
+    TargetLanguage: English
+    Value: You can scan the moons of your current planet. You have a 10% chance to discover a trait when scanning.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 1
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1102
+  Description:
+    TargetLanguage: English
+    Value: You can scan any planet or moon in this system. You have a 20% chance to discover a trait when scanning.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 2
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1103
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 2
+    EntryPoint: ModPlanetScanMaxDistance
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Value: 16
+  Description:
+    TargetLanguage: English
+    Value: You can scan any planet or moon within 16 Light Years. You have a 30% chance to discover a trait when scanning.
+- Effects:
+  - MutagenObjectType: PerkQuestEffect
+    Rank: 3
+    Quest: 2C59E4:Starfield.esm
+    Stage: 1104
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Rank: 3
+    EntryPoint: ModPlanetScanMaxDistance
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 30
+  Description:
+    TargetLanguage: English
+    Value: You can scan any planet or moon within 30 Light Years. You have a 50% chance to discover a trait when scanning.
