@@ -1,0 +1,19 @@
+FormKey: 22EC73:Starfield.esm
+EditorID: BackgroundPilgrim
+Name:
+  TargetLanguage: English
+  Value: Pilgrim
+Description:
+  TargetLanguage: English
+  Value: Wayfarer, wanderer, seeker... transient. You've been called many things during your travels, and learned something those others could never understand - the journey IS the destination.
+Flags:
+- PcPlayable
+- PcBackground
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+BackgroundSkills:
+- 28B853:Starfield.esm
+- 2C5560:Starfield.esm
+- 2CFCAD:Starfield.esm

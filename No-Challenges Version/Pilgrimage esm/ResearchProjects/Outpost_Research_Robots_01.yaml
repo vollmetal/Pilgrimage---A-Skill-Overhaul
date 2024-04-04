@@ -1,0 +1,21 @@
+FormKey: 389F0F:Starfield.esm
+EditorID: Outpost_Research_Robots_01
+Name:
+  TargetLanguage: English
+  Value: Robots 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct the Garden Mini Bot, Sanitation Mini Bot, and Engineering Robot at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 2
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 3
+- Resource: 0057D8:Starfield.esm
+  RequiredCount: 3
+IconSource: 0C18EC:Starfield.esm
+NNAM: 0
+MenuSortOrder: 16
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm

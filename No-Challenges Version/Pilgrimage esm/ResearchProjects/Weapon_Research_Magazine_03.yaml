@@ -1,0 +1,32 @@
+FormKey: 380C4D:Starfield.esm
+EditorID: Weapon_Research_Magazine_03
+Name:
+  TargetLanguage: English
+  Value: Magazine and Battery Mods 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to build experimental Magazine and Battery mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24577E:Starfield.esm
+  RequiredCount: 8
+- Resource: 077823:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057CA:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057C1:Starfield.esm
+  RequiredCount: 30
+- Resource: 077828:Starfield.esm
+  RequiredCount: 20
+RequiredPerks:
+- Perk: 2C890C:Starfield.esm
+  RequiredCount: 1
+- Perk: 04CE2D:Starfield.esm
+  RequiredCount: 1
+IconSource: 2634C8:Starfield.esm
+NNAM: 0
+MenuSortOrder: 13
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm
+RequiredProjects:
+- 389F1B:Starfield.esm

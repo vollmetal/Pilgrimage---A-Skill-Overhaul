@@ -1,0 +1,19 @@
+FormKey: 147BE8:Starfield.esm
+EditorID: Scanning_TargetLock_WeaponSpeed
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Scanning Weapon Speed
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 0D00C8:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 10
+  EFIF: 0
+  MUID: 1

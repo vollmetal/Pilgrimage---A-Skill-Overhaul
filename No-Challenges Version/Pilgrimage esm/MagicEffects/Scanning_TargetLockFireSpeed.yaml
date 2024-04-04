@@ -1,0 +1,16 @@
+FormKey: 0D00C8:Starfield.esm
+EditorID: Scanning_TargetLockFireSpeed
+Name:
+  TargetLanguage: English
+  Value: Target Lock Fire Speed Slow
+PerkToApply: 0D00C9:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+CastType: FireAndForget
+TargetType: Touch
+UnkownInt3: 1065353216
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: ''

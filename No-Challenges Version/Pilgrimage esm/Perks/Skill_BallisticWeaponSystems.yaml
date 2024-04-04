@@ -110,7 +110,7 @@ Ranks:
           FirstParameter: 01EDE8:Starfield.esm
     EntryPoint: ModMyCriticalHitChance
     PerkConditionTabCount: 3
-    PerkEntryID: 2
+    PerkEntryID: 3
     Modification: Add
     Value: 10
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -134,7 +134,7 @@ Ranks:
         ComparisonValue: 1
     EntryPoint: ModWeaponAttackDamage
     PerkConditionTabCount: 3
-    PerkEntryID: 3
+    PerkEntryID: 4
     Modification: Multiply
     Value: 1.25
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -158,7 +158,7 @@ Ranks:
           FirstParameter: 01EDE8:Starfield.esm
     EntryPoint: ModWeaponAttackDamage
     PerkConditionTabCount: 3
-    PerkEntryID: 4
+    PerkEntryID: 5
     Modification: Multiply
     Value: 1.25
   Description:
@@ -186,7 +186,7 @@ Ranks:
         ComparisonValue: 1
     EntryPoint: ModMyCriticalHitChance
     PerkConditionTabCount: 3
-    PerkEntryID: 5
+    PerkEntryID: 6
     Modification: Add
     Value: 10
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -210,7 +210,7 @@ Ranks:
           FirstParameter: 01EDE8:Starfield.esm
     EntryPoint: ModMyCriticalHitChance
     PerkConditionTabCount: 3
-    PerkEntryID: 6
+    PerkEntryID: 7
     Modification: Add
     Value: 10
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -234,7 +234,7 @@ Ranks:
         ComparisonValue: 1
     EntryPoint: ModWeaponAttackDamage
     PerkConditionTabCount: 3
-    PerkEntryID: 7
+    PerkEntryID: 8
     Modification: Multiply
     Value: 1.5
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -258,7 +258,7 @@ Ranks:
           FirstParameter: 01EDE8:Starfield.esm
     EntryPoint: ModWeaponAttackDamage
     PerkConditionTabCount: 3
-    PerkEntryID: 8
+    PerkEntryID: 9
     Modification: Multiply
     Value: 1.5
   Description:
@@ -286,7 +286,7 @@ Ranks:
         ComparisonValue: 1
     EntryPoint: ModMyCriticalHitChance
     PerkConditionTabCount: 3
-    PerkEntryID: 9
+    PerkEntryID: 10
     Modification: Add
     Value: 20
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -310,7 +310,7 @@ Ranks:
           FirstParameter: 060A81:Starfield.esm
     EntryPoint: ModMyCriticalHitChance
     PerkConditionTabCount: 3
-    PerkEntryID: 10
+    PerkEntryID: 11
     Modification: Add
     Value: 20
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -334,7 +334,7 @@ Ranks:
         ComparisonValue: 1
     EntryPoint: ModWeaponAttackDamage
     PerkConditionTabCount: 3
-    PerkEntryID: 11
+    PerkEntryID: 12
     Modification: Multiply
     Value: 1.5
   - MutagenObjectType: PerkEntryPointModifyValue
@@ -358,7 +358,7 @@ Ranks:
           FirstParameter: 060A81:Starfield.esm
     EntryPoint: ModWeaponAttackDamage
     PerkConditionTabCount: 3
-    PerkEntryID: 12
+    PerkEntryID: 13
     Modification: Multiply
     Value: 1.5
   Description:

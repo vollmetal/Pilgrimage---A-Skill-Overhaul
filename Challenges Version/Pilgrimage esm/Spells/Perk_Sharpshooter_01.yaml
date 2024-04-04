@@ -1,0 +1,19 @@
+FormKey: 00080F:Pilgrimage - Challenges.esm
+EditorID: Perk_Sharpshooter_01
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Sharpshooter
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 08C795:Starfield.esm
+  Data:
+    Magnitude: 0.25
+    Duration: 6
+  EFIF: 0
+  MUID: 1

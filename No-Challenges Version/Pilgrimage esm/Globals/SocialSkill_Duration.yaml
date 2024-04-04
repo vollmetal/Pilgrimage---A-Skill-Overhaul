@@ -1,0 +1,8 @@
+FormKey: 002D61:Starfield.esm
+MajorRecordFlagsRaw: 64
+EditorID: SocialSkill_Duration
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 60
+MajorFlags:
+- Constant

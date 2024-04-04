@@ -1,0 +1,30 @@
+FormKey: 389F14:Starfield.esm
+EditorID: Outpost_Research_PowerGeneration_01
+Name:
+  TargetLanguage: English
+  Value: Power Generation 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Advanced Wind Turbines at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 10
+- Resource: 24578A:Starfield.esm
+  RequiredCount: 8
+- Resource: 245775:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C3:Starfield.esm
+  RequiredCount: 30
+- Resource: 0057CF:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057CE:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 1C5149:Starfield.esm
+NNAM: 0
+MenuSortOrder: 12
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm

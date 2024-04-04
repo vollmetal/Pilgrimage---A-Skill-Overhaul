@@ -1,0 +1,32 @@
+FormKey: 389F06:Starfield.esm
+EditorID: Food_Research_ExoticRecipes_02
+Name:
+  TargetLanguage: English
+  Value: Exotic Recipes 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Alien Stew, Creature Jam, and Xenowurst at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 10
+- Resource: 07782C:Starfield.esm
+  RequiredCount: 10
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B02F:Starfield.esm
+  RequiredCount: 5
+- Resource: 29B034:Starfield.esm
+  RequiredCount: 8
+- Resource: 29B03B:Starfield.esm
+  RequiredCount: 8
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B05E:Starfield.esm
+NNAM: 0
+MenuSortOrder: 5
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389F05:Starfield.esm

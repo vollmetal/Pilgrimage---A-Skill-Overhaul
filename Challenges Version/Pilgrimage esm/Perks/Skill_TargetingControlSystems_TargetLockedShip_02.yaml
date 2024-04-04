@@ -1,0 +1,23 @@
+FormKey: 000814:Pilgrimage - Challenges.esm
+EditorID: Skill_TargetingControlSystems_TargetLockedShip_02
+Name:
+  TargetLanguage: English
+  Value: Target Locked Ship 2
+Description:
+  TargetLanguage: English
+  Value: ''
+CrewAssignment: CrewShip
+Flags:
+- 0x4
+- ShowInCrewUi
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: ModifyWeaponFireRate
+    PerkConditionTabCount: 2
+    PerkEntryID: 0
+    Modification: Multiply
+    Value: 0.8
+  Description:
+    TargetLanguage: English
+    Value: ''

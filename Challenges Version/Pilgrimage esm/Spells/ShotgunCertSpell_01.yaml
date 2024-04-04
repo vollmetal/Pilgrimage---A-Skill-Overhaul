@@ -1,0 +1,19 @@
+FormKey: 000803:Pilgrimage - Challenges.esm
+EditorID: ShotgunCertSpell_01
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Shotgun Certification
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 000804:Pilgrimage - Challenges.esm
+  Data:
+    Magnitude: 0.5
+    Duration: 6
+  EFIF: 0
+  MUID: 1

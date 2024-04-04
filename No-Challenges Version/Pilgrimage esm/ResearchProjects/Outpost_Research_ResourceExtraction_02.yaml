@@ -1,0 +1,32 @@
+FormKey: 389F0C:Starfield.esm
+EditorID: Outpost_Research_ResourceExtraction_02
+Name:
+  TargetLanguage: English
+  Value: Resource Extraction 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct Industrial Extractors at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 202F59:Starfield.esm
+  RequiredCount: 5
+- Resource: 245787:Starfield.esm
+  RequiredCount: 8
+- Resource: 245775:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 40
+- Resource: 0057E0:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057D7:Starfield.esm
+  RequiredCount: 20
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+IconSource: 20A053:Starfield.esm
+NNAM: 0
+MenuSortOrder: 4
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 389F0B:Starfield.esm

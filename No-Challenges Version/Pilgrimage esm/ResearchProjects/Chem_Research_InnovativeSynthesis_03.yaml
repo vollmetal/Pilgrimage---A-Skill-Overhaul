@@ -1,0 +1,34 @@
+FormKey: 389EF6:Starfield.esm
+EditorID: Chem_Research_InnovativeSynthesis_03
+Name:
+  TargetLanguage: English
+  Value: Innovative Synthesis 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Hypergiant Heart and Supermassive Heart at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0C1F57:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057D4:Starfield.esm
+  RequiredCount: 8
+- Resource: 077827:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057E8:Starfield.esm
+  RequiredCount: 10
+- Resource: 122EB1:Starfield.esm
+  RequiredCount: 5
+- Resource: 122EA8:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+- Perk: 04CE2D:Starfield.esm
+  RequiredCount: 1
+IconSource: 29959D:Starfield.esm
+NNAM: 0
+MenuSortOrder: 10
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EF5:Starfield.esm

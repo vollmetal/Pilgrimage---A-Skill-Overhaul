@@ -1,0 +1,34 @@
+FormKey: 2C7788:Starfield.esm
+EditorID: ArtifactPowerVoidForm_Effect
+Name:
+  TargetLanguage: English
+  Value: Void Form
+Keywords:
+- 129573:Starfield.esm
+CastingArt: 179DC1:Starfield.esm
+HitShader: 179DC2:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Invisibility
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- Recover
+- NoArea
+- FXPersist
+- HideInUI
+Unknown: 0x00000000000000000000000000000000000000000000
+Sounds:
+- Type: OnHit
+  Sound:
+    Start: f10a421a-a5c1-e5c5-52ed-73eba74ec1ba
+    Stop: 5d4a4d0d-0268-10b9-a7b7-150d43e78db6
+- Type: Release
+  Sound:
+    Start: 06644b08-c615-fb05-04cc-1d089df704ae
+- Type: Charge
+  Sound:
+    Start: a9bd4d18-e32f-c805-dc14-82e718741f96
+Description:
+  TargetLanguage: English
+  Value: Cloak yourself in the void and become invisible for <dur> seconds.

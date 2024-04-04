@@ -1,0 +1,21 @@
+FormKey: 07426A:Starfield.esm
+EditorID: LL_Zoology_Org_RareExotic
+ODTY: 0
+ChanceNone: 75
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+UseGlobal: 07426E:Starfield.esm
+Entries:
+- Level: 1
+  Reference: 07426C:Starfield.esm
+  Count: 1
+- Level: 1
+  Reference: 07426D:Starfield.esm
+  Count: 1
+- Level: 1
+  Reference: 07426D:Starfield.esm
+  Count: 1
+Model:
+  FLLD: 0x01000000

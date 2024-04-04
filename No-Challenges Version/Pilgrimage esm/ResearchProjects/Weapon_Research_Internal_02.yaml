@@ -1,0 +1,30 @@
+FormKey: 389F20:Starfield.esm
+EditorID: Weapon_Research_Internal_02
+Name:
+  TargetLanguage: English
+  Value: Internal Mods 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to build cutting-edge Internal mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 24578A:Starfield.esm
+  RequiredCount: 8
+- Resource: 24576E:Starfield.esm
+  RequiredCount: 8
+- Resource: 0057C8:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C6:Starfield.esm
+  RequiredCount: 10
+- Resource: 077828:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C890C:Starfield.esm
+  RequiredCount: 1
+IconSource: 2C7EF6:Starfield.esm
+NNAM: 0
+MenuSortOrder: 15
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm
+RequiredProjects:
+- 389F1F:Starfield.esm

@@ -1,0 +1,21 @@
+FormKey: 389F1C:Starfield.esm
+EditorID: Weapon_Research_OpticsSights_01
+Name:
+  TargetLanguage: English
+  Value: Optic and Laser Mods 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to build Optic mods and Laser mods for supported weapons at a Weapon Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 3
+- Resource: 0057D7:Starfield.esm
+  RequiredCount: 2
+- Resource: 07782D:Starfield.esm
+  RequiredCount: 3
+IconSource: 2C7EFD:Starfield.esm
+NNAM: 0
+MenuSortOrder: 5
+TNAM: 0
+CategoryKeyword: 2956C2:Starfield.esm

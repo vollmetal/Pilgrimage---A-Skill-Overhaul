@@ -1,0 +1,35 @@
+FormKey: 1CC009:Starfield.esm
+EditorID: EnvironmentalConditioning_Spell_Rank1
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Env Conditioning
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+Type:
+- Ability
+Effects:
+- BaseEffect: 1CC00A:Starfield.esm
+  Data:
+    Magnitude: 10
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 1CC00C:Starfield.esm
+  Data:
+    Magnitude: 10
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 1CC00B:Starfield.esm
+  Data:
+    Magnitude: 10
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1CC00D:Starfield.esm
+  Data:
+    Magnitude: 10
+  EFIF: 0
+  MUID: 3

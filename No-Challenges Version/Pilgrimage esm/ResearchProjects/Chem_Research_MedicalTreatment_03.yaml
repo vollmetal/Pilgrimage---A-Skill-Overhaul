@@ -1,0 +1,28 @@
+FormKey: 389EEC:Starfield.esm
+EditorID: Chem_Research_MedicalTreatment_03
+Name:
+  TargetLanguage: English
+  Value: Medical Treatment 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Antibiotic Injector and Repairing Immobilizer at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782B:Starfield.esm
+  RequiredCount: 10
+- Resource: 29F3FD:Starfield.esm
+  RequiredCount: 20
+- Resource: 2F4436:Starfield.esm
+  RequiredCount: 10
+- Resource: 07782D:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+IconSource: 224D61:Starfield.esm
+NNAM: 0
+MenuSortOrder: 6
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EEB:Starfield.esm

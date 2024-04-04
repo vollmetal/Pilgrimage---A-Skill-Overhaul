@@ -1,0 +1,18 @@
+FormKey: 2CCF94:Starfield.esm
+EditorID: abTargetingControlSystems_TargetLockTime_02
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Target Lock Time 02
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Ability
+Effects:
+- BaseEffect: 002965:Starfield.esm
+  Data:
+    Magnitude: 0.3
+  EFIF: 1
+  MUID: 2

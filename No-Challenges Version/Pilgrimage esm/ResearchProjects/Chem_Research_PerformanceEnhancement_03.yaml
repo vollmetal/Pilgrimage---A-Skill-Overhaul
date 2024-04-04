@@ -1,0 +1,30 @@
+FormKey: 389EF1:Starfield.esm
+EditorID: Chem_Research_PerformanceEnhancement_03
+Name:
+  TargetLanguage: English
+  Value: Performance Enhancement 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Neurajack and Whiteout at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0057D4:Starfield.esm
+  RequiredCount: 10
+- Resource: 077825:Starfield.esm
+  RequiredCount: 10
+- Resource: 077823:Starfield.esm
+  RequiredCount: 10
+- Resource: 2A9DE7:Starfield.esm
+  RequiredCount: 5
+- Resource: 2C5880:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+IconSource: 29958F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 2
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EF0:Starfield.esm

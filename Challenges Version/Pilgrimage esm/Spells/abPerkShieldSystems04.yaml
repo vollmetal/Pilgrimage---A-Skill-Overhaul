@@ -1,0 +1,59 @@
+FormKey: 226A12:Starfield.esm
+EditorID: abPerkShieldSystems04
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Shield Systems
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Ability
+Effects:
+- BaseEffect: 23759E:Starfield.esm
+  Data:
+    Magnitude: 0.6
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 790821
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectOrSpellKeywordConditionData
+      FirstParameter: 000823:Pilgrimage - Challenges.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 000824:Pilgrimage - Challenges.esm
+  Data:
+    Magnitude: 1.6
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 790821
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: HasMagicEffectOrSpellKeywordConditionData
+      FirstParameter: 000823:Pilgrimage - Challenges.esm
+    ComparisonValue: 1
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 790821
+    ComparisonValue: 2.6
+  EFIF: 0
+  MUID: 1

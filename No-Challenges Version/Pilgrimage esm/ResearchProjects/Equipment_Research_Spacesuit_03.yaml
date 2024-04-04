@@ -1,0 +1,32 @@
+FormKey: 178D1A:Starfield.esm
+EditorID: Equipment_Research_Spacesuit_03
+Name:
+  TargetLanguage: English
+  Value: Spacesuit Mods 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to build cutting-edge spacesuit mods at a Spacesuit Workbench.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245787:Starfield.esm
+  RequiredCount: 8
+- Resource: 203EA2:Starfield.esm
+  RequiredCount: 5
+- Resource: 24577E:Starfield.esm
+  RequiredCount: 8
+- Resource: 252074:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C4:Starfield.esm
+  RequiredCount: 30
+- Resource: 0777F9:Starfield.esm
+  RequiredCount: 20
+RequiredPerks:
+- Perk: 27CBC3:Starfield.esm
+  RequiredCount: 1
+IconSource: 22856F:Starfield.esm
+NNAM: 0
+MenuSortOrder: 5
+TNAM: 0
+CategoryKeyword: 2956C1:Starfield.esm
+RequiredProjects:
+- 178D03:Starfield.esm

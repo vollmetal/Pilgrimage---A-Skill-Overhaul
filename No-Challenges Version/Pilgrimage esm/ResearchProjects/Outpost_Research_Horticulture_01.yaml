@@ -1,0 +1,30 @@
+FormKey: 389F09:Starfield.esm
+EditorID: Outpost_Research_Horticulture_01
+Name:
+  TargetLanguage: English
+  Value: Horticulture 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct the Commercial Greenhouse at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245788:Starfield.esm
+  RequiredCount: 8
+- Resource: 245775:Starfield.esm
+  RequiredCount: 10
+- Resource: 0057C4:Starfield.esm
+  RequiredCount: 10
+- Resource: 0777E6:Starfield.esm
+  RequiredCount: 10
+- Resource: 29F3FD:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+- Perk: 2C5557:Starfield.esm
+  RequiredCount: 1
+IconSource: 0F590E:Starfield.esm
+NNAM: 0
+MenuSortOrder: 8
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm

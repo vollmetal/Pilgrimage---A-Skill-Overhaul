@@ -1,0 +1,19 @@
+FormKey: 22EC6E:Starfield.esm
+EditorID: BackgroundXenobiologist
+Name:
+  TargetLanguage: English
+  Value: Xenobiologist
+Description:
+  TargetLanguage: English
+  Value: The Settled Systems is home to untold alien species. And while none of them have yet proven sentient, that never deterred you. So you sought out and studied them for whatever gifts they offered.
+Flags:
+- PcPlayable
+- PcBackground
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+BackgroundSkills:
+- 2C59DD:Starfield.esm
+- 2CFCB1:Starfield.esm
+- 2CE2DD:Starfield.esm

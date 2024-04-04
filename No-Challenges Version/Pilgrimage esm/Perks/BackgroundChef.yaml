@@ -1,0 +1,19 @@
+FormKey: 22EC7F:Starfield.esm
+EditorID: BackgroundChef
+Name:
+  TargetLanguage: English
+  Value: Chef
+Description:
+  TargetLanguage: English
+  Value: While the unrefined masses scarfed down Chunks by the shipload, you catered to those with a more... discerning palate. In your kitchen, countless alien species became true culinary masterpieces.
+Flags:
+- PcPlayable
+- PcBackground
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+BackgroundSkills:
+- 2CFCAD:Starfield.esm
+- 2CFCB0:Starfield.esm
+- 28B853:Starfield.esm

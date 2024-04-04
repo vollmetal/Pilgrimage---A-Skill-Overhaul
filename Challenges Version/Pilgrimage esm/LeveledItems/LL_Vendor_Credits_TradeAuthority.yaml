@@ -1,0 +1,71 @@
+FormKey: 03E58D:Starfield.esm
+MajorRecordFlagsRaw: 32768
+EditorID: LL_Vendor_Credits_TradeAuthority
+StarfieldMajorRecordFlags:
+- VisibleWhenDistant
+ODTY: 0
+MaxCount: 0
+Flags:
+- UseAll
+Entries:
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 11000
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 13750
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 16500
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 2
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 19250
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 3
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 22000
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 4
+Model:
+  FLLD: 0x01000000

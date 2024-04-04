@@ -1,0 +1,21 @@
+FormKey: 389EEA:Starfield.esm
+EditorID: Chem_Research_MedicalTreatment_01
+Name:
+  TargetLanguage: English
+  Value: Medical Treatment 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Antibiotic Paste and Infused Bandages at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 077820:Starfield.esm
+  RequiredCount: 3
+- Resource: 07782A:Starfield.esm
+  RequiredCount: 2
+- Resource: 0057D6:Starfield.esm
+  RequiredCount: 2
+IconSource: 299590:Starfield.esm
+NNAM: 0
+MenuSortOrder: 4
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm

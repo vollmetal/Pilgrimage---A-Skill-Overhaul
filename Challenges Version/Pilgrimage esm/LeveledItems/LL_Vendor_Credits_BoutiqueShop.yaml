@@ -1,0 +1,69 @@
+FormKey: 03E586:Starfield.esm
+EditorID: LL_Vendor_Credits_BoutiqueShop
+ODTY: 0
+MaxCount: 0
+Flags:
+- CalculateFromAllLevelsLessThanOrEqualPlayer
+- CalculateForEachItemInCount
+Entries:
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 3500
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 4375
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 1
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 5250
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 2
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 6125
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 3
+- Level: 1
+  Reference: 00000F:Starfield.esm
+  Count: 7000
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+      FirstParameter: 2C5A8E:Starfield.esm
+    ComparisonValue: 4
+Model:
+  FLLD: 0x01000000

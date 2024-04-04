@@ -1,0 +1,19 @@
+FormKey: 22EC77:Starfield.esm
+EditorID: BackgroundHomesteader
+Name:
+  TargetLanguage: English
+  Value: Homesteader
+Description:
+  TargetLanguage: English
+  Value: The discovery of the Settled Systems' many oxygen-rich planets and moons meant humans could live just about anywhere... if they had the know how. You did, and utilized it to great effect.
+Flags:
+- PcPlayable
+- PcBackground
+Ranks:
+- Description:
+    TargetLanguage: English
+    Value: ''
+BackgroundSkills:
+- 2CE29F:Starfield.esm
+- 2CFCB1:Starfield.esm
+- 2C59D9:Starfield.esm

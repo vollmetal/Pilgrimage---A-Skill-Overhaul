@@ -1,0 +1,30 @@
+FormKey: 389F05:Starfield.esm
+EditorID: Food_Research_ExoticRecipes_01
+Name:
+  TargetLanguage: English
+  Value: Exotic Recipes 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Alien Kebabs, Alien Stir-Fry, and Crispy Alien Nuggets at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 8
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 8
+- Resource: 077821:Starfield.esm
+  RequiredCount: 10
+- Resource: 0777E6:Starfield.esm
+  RequiredCount: 8
+- Resource: 29B036:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B064:Starfield.esm
+NNAM: 0
+MenuSortOrder: 4
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389F04:Starfield.esm

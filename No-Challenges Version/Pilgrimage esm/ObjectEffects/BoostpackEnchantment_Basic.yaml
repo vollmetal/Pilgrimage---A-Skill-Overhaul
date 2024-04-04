@@ -1,0 +1,175 @@
+FormKey: 092D50:Starfield.esm
+EditorID: BoostpackEnchantment_Basic
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Basic Boostpack
+UnknownENIT: 0x000000000000000000000000000006000000000000000000000000
+Effects:
+- BaseEffect: 02B8A9:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 125C83:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 01675A:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 02466C:Starfield.esm
+  Data:
+    Magnitude: 13
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 147489
+    ComparisonValue: 100
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsBoostPackHoveringConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      FirstParameter: 146C2C:Starfield.esm
+    ComparisonValue: 2
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 02466C:Starfield.esm
+  Data:
+    Magnitude: 17
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 147489
+    ComparisonValue: 100
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsBoostPackHoveringConditionData
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      FirstParameter: 146C2C:Starfield.esm
+    ComparisonValue: 2
+  - MutagenObjectType: ConditionFloat
+    Flags:
+    - OR
+    Unknown1: 0x000000
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      FirstParameter: 146C2C:Starfield.esm
+    ComparisonValue: 3
+  EFIF: 0
+  MUID: 20
+- BaseEffect: 02466C:Starfield.esm
+  Data:
+    Magnitude: 21
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetValueConditionData
+      FirstParameter: 147489
+    ComparisonValue: 100
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsBoostPackHoveringConditionData
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: GreaterThanOrEqualTo
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: GetPerkRankConditionData
+      FirstParameter: 146C2C:Starfield.esm
+    ComparisonValue: 4
+  EFIF: 0
+  MUID: 21
+- BaseEffect: 355262:Starfield.esm
+  Data:
+    Magnitude: 250
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 355264:Starfield.esm
+  Data:
+    Magnitude: 60
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 355263:Starfield.esm
+  Data:
+    Magnitude: 160
+  EFIF: 0
+  MUID: 7
+- BaseEffect: 355265:Starfield.esm
+  Data:
+    Magnitude: 35
+  EFIF: 0
+  MUID: 8
+- BaseEffect: 355266:Starfield.esm
+  Data:
+    Magnitude: 0.25
+  EFIF: 0
+  MUID: 9
+- BaseEffect: 355267:Starfield.esm
+  Data:
+    Magnitude: 25
+  EFIF: 0
+  MUID: 10
+- BaseEffect: 355268:Starfield.esm
+  Data:
+    Magnitude: 0.85
+  EFIF: 0
+  MUID: 11
+- BaseEffect: 355269:Starfield.esm
+  Data:
+    Magnitude: 0.1
+  EFIF: 0
+  MUID: 12
+- BaseEffect: 35526A:Starfield.esm
+  Data:
+    Magnitude: 0.25
+  EFIF: 0
+  MUID: 13
+- BaseEffect: 35526B:Starfield.esm
+  Data:
+    Magnitude: 1
+  EFIF: 0
+  MUID: 14
+- BaseEffect: 35526C:Starfield.esm
+  Data:
+    Magnitude: 0.98
+  EFIF: 0
+  MUID: 15
+- BaseEffect: 35526D:Starfield.esm
+  Data:
+    Magnitude: 0.04
+  EFIF: 0
+  MUID: 16
+- BaseEffect: 35526E:Starfield.esm
+  Data:
+    Magnitude: 55
+  EFIF: 0
+  MUID: 17
+- BaseEffect: 35526F:Starfield.esm
+  Data: {}
+  EFIF: 0
+  MUID: 18
+- BaseEffect: 13BB23:Starfield.esm
+  Data:
+    Magnitude: 17.5
+  EFIF: 0
+  MUID: 19

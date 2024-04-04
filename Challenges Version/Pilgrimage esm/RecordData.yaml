@@ -1,0 +1,24 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Starfield
+  Version: 0.18.0
+ModKey: Pilgrimage - Challenges.esm
+GameRelease: Starfield
+ModHeader:
+  Flags:
+  - Master
+  Stats:
+    NumRecords: 280
+    NextFormID: 2090
+  Author: ''
+  MasterReferences:
+  - Master: Starfield.esm
+  - Master: BlueprintShips-Starfield.esm
+  OverriddenForms:
+  - 0F68D0:Starfield.esm
+  - 0F68D2:Starfield.esm
+  - 2100A7:Starfield.esm
+  - 2100A9:Starfield.esm
+  - 2100AF:Starfield.esm
+  - 2100B3:Starfield.esm
+  - 244030:Starfield.esm
+  - 2440D2:Starfield.esm

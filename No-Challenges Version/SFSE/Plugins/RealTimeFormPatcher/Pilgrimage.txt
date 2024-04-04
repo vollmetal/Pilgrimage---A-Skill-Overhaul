@@ -1,0 +1,2 @@
+[NPC]
+Starfield.esm~7|add_perk(Pilgrimage.esm~02000800:1)

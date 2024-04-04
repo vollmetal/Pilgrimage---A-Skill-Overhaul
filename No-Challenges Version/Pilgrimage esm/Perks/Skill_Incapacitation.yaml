@@ -145,8 +145,7 @@ Ranks:
   - MutagenObjectType: PerkEntryPointModifyValue
     Rank: 3
     Conditions:
-    - RunOnTabIndex: 1
-      Conditions:
+    - Conditions:
       - MutagenObjectType: ConditionFloat
         CompareOperator: LessThanOrEqualTo
         Unknown1: 0x000000

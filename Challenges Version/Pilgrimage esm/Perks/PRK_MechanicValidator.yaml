@@ -1,0 +1,47 @@
+FormKey: 000800:Pilgrimage - Challenges.esm
+EditorID: PRK_MechanicValidator
+Name:
+  TargetLanguage: English
+  Value: Boost Pack Valid!
+Description:
+  TargetLanguage: English
+  Value: Specialized training and innovations in personal mobility systems have allowed for unfettered exploration on alien worlds.
+SkillGroup: Basic
+Flags:
+- PcPlayable
+PerkIcon: Patch_Technology_BoostPackTraining
+Ranks:
+- Effects:
+  - MutagenObjectType: PerkEntryPointModifyValue
+    Conditions:
+    - Conditions:
+      - MutagenObjectType: ConditionFloat
+        CompareOperator: NotEqualTo
+        Unknown1: 0x000000
+        Unknown2: 17620
+        Data:
+          MutagenObjectType: IsSpellTargetConditionData
+          FirstParameter: 2C5A4E:Starfield.esm
+        ComparisonValue: 1
+    EntryPoint: AllowJetpack
+    PerkConditionTabCount: 1
+    PerkEntryID: 0
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnablePlayerShipThrusterMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 1
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnablePlayerShipTargetingMode
+    PerkConditionTabCount: 1
+    PerkEntryID: 2
+    Value: 1
+  - MutagenObjectType: PerkEntryPointModifyValue
+    EntryPoint: EnableScannerZoom
+    PerkConditionTabCount: 1
+    PerkEntryID: 3
+    Value: 4
+  Description:
+    TargetLanguage: English
+    Value: ''

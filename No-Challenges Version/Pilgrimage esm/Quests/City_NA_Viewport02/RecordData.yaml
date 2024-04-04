@@ -1,0 +1,407 @@
+FormKey: 270719:Starfield.esm
+EditorID: City_NA_Viewport02
+VirtualMachineAdapter:
+  Scripts:
+  - Name: City_NA_Viewport02QuestScript
+  Script:
+    Name: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_ER_Peace
+      Object: 1699FB:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101Debug
+      Object: 0A7D31:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Alias_StartMarker
+      Object: 270719:Starfield.esm
+      Alias: 2
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CF06
+      Object: 01BD20:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport02_InvestAmount
+      Object: 15DA85:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport01
+      Object: 2926D2:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ105
+      Object: 2C1C9B:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: MQ101
+      Object: 003448:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_NA_Viewport03
+      Object: 27071A:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: City_Neon_Drug03
+      Object: 233C2F:Starfield.esm
+    - MutagenObjectType: ScriptObjectProperty
+      Name: Credits
+      Object: 00000F:Starfield.esm
+  Fragments:
+  - Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0000_Item_00
+  - Stage: 22
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0022_Item_00
+  - Stage: 20
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0020_Item_00
+  - Stage: 1000
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_1000_Item_00
+  - Stage: 100
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0100_Item_00
+  - Stage: 23
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0023_Item_00
+  - Stage: 190
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0190_Item_00
+  - Stage: 30
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0030_Item_00
+  - Stage: 110
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0110_Item_00
+  - Stage: 120
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0120_Item_00
+  - Stage: 150
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0150_Item_00
+  - Stage: 200
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0200_Item_00
+  - Stage: 140
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0140_Item_00
+  - Stage: 130
+    Unknown2: 1
+    ScriptName: Fragments:Quests:QF_City_NA_Viewport02_00270719
+    FragmentName: Fragment_Stage_0130_Item_00
+  Aliases:
+  - Property:
+      Name: ''
+      Object: 270719:Starfield.esm
+      Alias: 8
+    Scripts:
+    - Name: defaultaliasonlocationchange
+      Properties:
+      - MutagenObjectType: ScriptObjectListProperty
+        Name: LocationsToCheckAgainst
+        Objects:
+        - Name: ''
+          Object: 01295A:Starfield.esm
+      - MutagenObjectType: ScriptIntProperty
+        Name: StageToSet
+        Data: 1000
+      - MutagenObjectType: ScriptIntProperty
+        Name: PrereqStage
+        Data: 200
+Name:
+  TargetLanguage: English
+  Value: Liquid Assets
+Data:
+  Flags:
+  - RunOnce
+  - 0x10000
+  Priority: 30
+  Unused: 0x000000
+QuestType: 047600:Starfield.esm
+TextDisplayGlobals:
+- 15DA85:Starfield.esm
+UnusedConditions: []
+Stages:
+- Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Debug
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 1
+  Flags:
+  - RunOnStart
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: startup
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 10
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Talked to Nyssa, declined to help
+    Entry:
+      TargetLanguage: English
+      Value: Nyssa Marcano has asked me for more help expanding her business. I should talk to her when I'm able to help.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 15
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Sarah name drops Walter
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 20
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Agreed to help
+    Entry:
+      TargetLanguage: English
+      Value: Nyssa Marcano has asked me to talk to Walter Stroud about investing in her business expansion.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 30
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Walter Stroud is available as an option
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 100
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Walter Stroud has agreed to fund
+    Entry:
+      TargetLanguage: English
+      Value: Walter Stroud has agreed to help fund Nyssa Marcano's business, but has first asked that I speak with his wife Issa.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 110
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: talked to Issa Eklund
+    Entry:
+      TargetLanguage: English
+      Value: I need to inform Nyssa Marcano that Walter Stroud will be investing in her business.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 120
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Told Nyssa Walter's on board, other options open up
+    Entry:
+      TargetLanguage: English
+      Value: I've found an investor for Nyssa Marcano's business, but she is adamant that she wants one other party involved. I should use connections I've made during my travels, or offer to get involved myself.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 130
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has agreed to fund
+    Entry:
+      TargetLanguage: English
+      Value: I've agreed to invest some of my own credits into Nyssa's business venture.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 140
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Reisha Lance agreed to fund
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 150
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Benjamin Bayu agreed to fund
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 190
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: All funding acquired, return to Nyssa
+    Entry:
+      TargetLanguage: English
+      Value: I need to let Nyssa Marcano know I've secured a second investor for her business.
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+- Index: 200
+  Unknown: 171
+  LogEntries:
+  - Flags:
+    - CompleteQuest
+    Note: Quest Complete
+    Entry:
+      TargetLanguage: English
+      Value: Funding for Nyssa's operation has been secured. Now I just need to give her time and see what she does with it.
+    StageCompleteDatas:
+    - QSRD: 0x01000000
+      RewardDatas:
+      - XpAwarded: 1AB4F2:Starfield.esm
+        BonusCredits: Null
+        Rewards:
+        - Item: 026B10:Starfield.esm
+          Count: 1
+    - QSRD: '[]'
+- Index: 1000
+  Unknown: 171
+  LogEntries:
+  - Flags: []
+    Note: Player has left and returned to New Atlantis, start the next quest
+    StageCompleteDatas:
+    - QSRD: 0x00000000
+    - QSRD: '[]'
+Objectives:
+- Index: 10
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Nyssa Marcano
+  Targets:
+  - {}
+- Index: 20
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Acquire Funding for Nyssa
+- Index: 30
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Walter Stroud
+  Targets:
+  - AliasID: 1
+- Index: 100
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Issa Eklund
+  Targets:
+  - AliasID: 6
+- Index: 110
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Nyssa Marcano
+  Targets:
+  - {}
+- Index: 120
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Offer to invest
+  Targets:
+  - {}
+- Index: 130
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Talk to Reisha Lance
+  Targets:
+  - AliasID: 7
+- Index: 140
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: (Optional) Talk to Benjamin Bayu
+  Targets:
+  - AliasID: 3
+- Index: 190
+  Flags: []
+  DisplayText:
+    TargetLanguage: English
+    Value: Talk to Nyssa Marcano
+  Targets:
+  - {}
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: NyssaMarcano
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01E44A:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: WalterStroud
+  Flags: []
+  ALFG: 0
+  UniqueActor: 005996:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: StartMarker
+  Flags: []
+  ALFG: 0
+  ForcedReference: 286A53:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: BenjaminBayu
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01BE38:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: IssaEklund
+  Flags: []
+  ALFG: 0
+  UniqueActor: 01961D:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: companion
+  Flags:
+  - Optional
+  - ExternalAliasLinked
+  - IsCompanion
+  - OptionalAllScenes
+  ALFG: 0
+  External:
+    Quest: 2A567C:Starfield.esm
+    AliasID: 0
+  VoiceTypes: 02935D:Starfield.esm
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Reisha
+  Flags: []
+  ALFG: 0
+  UniqueActor: 225487:Starfield.esm
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Player
+  Flags: []
+  ALFG: 0
+  UniqueActor: 000007:Starfield.esm
+  VoiceTypes: Null

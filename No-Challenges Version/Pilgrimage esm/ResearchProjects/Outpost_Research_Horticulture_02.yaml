@@ -1,0 +1,34 @@
+FormKey: 389F0A:Starfield.esm
+EditorID: Outpost_Research_Horticulture_02
+Name:
+  TargetLanguage: English
+  Value: Horticulture 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to construct the Industrial Greenhouse at outposts.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 245788:Starfield.esm
+  RequiredCount: 10
+- Resource: 245775:Starfield.esm
+  RequiredCount: 20
+- Resource: 0057C4:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777E6:Starfield.esm
+  RequiredCount: 30
+- Resource: 29F3FD:Starfield.esm
+  RequiredCount: 30
+- Resource: 07782A:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2C59E0:Starfield.esm
+  RequiredCount: 1
+- Perk: 2C5557:Starfield.esm
+  RequiredCount: 1
+IconSource: 0F5910:Starfield.esm
+NNAM: 0
+MenuSortOrder: 9
+TNAM: 0
+CategoryKeyword: 2956BF:Starfield.esm
+RequiredProjects:
+- 389F09:Starfield.esm

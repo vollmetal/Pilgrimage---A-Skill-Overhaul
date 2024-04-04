@@ -1,0 +1,25 @@
+FormKey: 0BDD74:Starfield.esm
+EditorID: Scanner_SocialSkill_Robotics_Instigation
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Frenzy
+Keywords:
+- 0914E0:Starfield.esm
+EquipmentType: 013F43:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Flags:
+- ManualCostCalc
+- IgnoreResistance
+CastType: FireAndForget
+TargetType: TargetActor
+Effects:
+- BaseEffect: 0BDD77:Starfield.esm
+  Data:
+    Magnitude: 999
+    Duration: 30
+  Duration: 002D61:Starfield.esm
+  EFIF: 0
+  MUID: 1

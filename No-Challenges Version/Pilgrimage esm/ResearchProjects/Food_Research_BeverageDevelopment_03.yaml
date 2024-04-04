@@ -1,0 +1,32 @@
+FormKey: 389EFF:Starfield.esm
+EditorID: Food_Research_BeverageDevelopment_03
+Name:
+  TargetLanguage: English
+  Value: Beverage Development 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Alien Broth and Bullet Coffee at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 10
+- Resource: 0777E6:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B030:Starfield.esm
+  RequiredCount: 10
+- Resource: 077821:Starfield.esm
+  RequiredCount: 20
+- Resource: 0083EC:Starfield.esm
+  RequiredCount: 20
+- Resource: 29B017:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B04B:Starfield.esm
+NNAM: 0
+MenuSortOrder: 10
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389EFE:Starfield.esm

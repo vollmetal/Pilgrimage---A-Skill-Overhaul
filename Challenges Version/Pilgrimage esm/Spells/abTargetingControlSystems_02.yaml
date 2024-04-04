@@ -1,0 +1,26 @@
+FormKey: 000815:Pilgrimage - Challenges.esm
+EditorID: abTargetingControlSystems_02
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Targeting Control Systems 2
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Ability
+Effects:
+- BaseEffect: 0B073A:Starfield.esm
+  Data:
+    Magnitude: 1.5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x010812
+    Data:
+      MutagenObjectType: IsPlayerInShipTargetingModeConditionData
+      RunOnType: Reference
+      Reference: 000014:Starfield.esm
+    ComparisonValue: 1
+  EFIF: 0
+  MUID: 1

@@ -1,0 +1,19 @@
+FormKey: 000813:Pilgrimage - Challenges.esm
+EditorID: Scanning_TargetLock_WeaponSpeed_2
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Scanning Weapon Speed 2
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+CastType: FireAndForget
+TargetType: Touch
+Effects:
+- BaseEffect: 000811:Pilgrimage - Challenges.esm
+  Data:
+    Magnitude: 1
+    Duration: 10
+  EFIF: 0
+  MUID: 1

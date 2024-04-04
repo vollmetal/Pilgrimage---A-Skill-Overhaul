@@ -1,0 +1,28 @@
+FormKey: 389EFB:Starfield.esm
+EditorID: Food_Research_Mixology_03
+Name:
+  TargetLanguage: English
+  Value: Mixology 3
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Disastrous Shipwreck and Very Heavy Water at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 0777FB:Starfield.esm
+  RequiredCount: 20
+- Resource: 29B030:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B02D:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B02C:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B042:Starfield.esm
+NNAM: 0
+MenuSortOrder: 14
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389EFA:Starfield.esm

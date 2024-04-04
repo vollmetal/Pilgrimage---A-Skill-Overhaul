@@ -1,0 +1,21 @@
+FormKey: 389EFD:Starfield.esm
+EditorID: Food_Research_BeverageDevelopment_01
+Name:
+  TargetLanguage: English
+  Value: Beverage Development 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Alien Tonic, Yellow Giant Splash, and Boba Alien Tea at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 2
+- Resource: 077821:Starfield.esm
+  RequiredCount: 3
+- Resource: 0083EC:Starfield.esm
+  RequiredCount: 3
+IconSource: 29B051:Starfield.esm
+NNAM: 0
+MenuSortOrder: 8
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm

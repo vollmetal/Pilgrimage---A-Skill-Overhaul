@@ -1,0 +1,34 @@
+FormKey: 389F04:Starfield.esm
+EditorID: Food_Research_OldEarthCuisine_04
+Name:
+  TargetLanguage: English
+  Value: Old Earth Cuisine 4
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Dal Makhani, Doro Wat, and Pappardelle Bolognese at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 20
+- Resource: 0777E6:Starfield.esm
+  RequiredCount: 40
+- Resource: 29B033:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B039:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B032:Starfield.esm
+  RequiredCount: 10
+- Resource: 2C7C0A:Starfield.esm
+  RequiredCount: 10
+- Resource: 29B036:Starfield.esm
+  RequiredCount: 10
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B059:Starfield.esm
+NNAM: 0
+MenuSortOrder: 3
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389F03:Starfield.esm

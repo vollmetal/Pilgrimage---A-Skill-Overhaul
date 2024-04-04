@@ -1,0 +1,30 @@
+FormKey: 389F02:Starfield.esm
+EditorID: Food_Research_OldEarthCuisine_02
+Name:
+  TargetLanguage: English
+  Value: Old Earth Cuisine 2
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare Carbonara, Chicken Marsala, and Latkes at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 07782E:Starfield.esm
+  RequiredCount: 5
+- Resource: 29B02A:Starfield.esm
+  RequiredCount: 5
+- Resource: 29B034:Starfield.esm
+  RequiredCount: 5
+- Resource: 2C7C0A:Starfield.esm
+  RequiredCount: 5
+- Resource: 29B039:Starfield.esm
+  RequiredCount: 5
+RequiredPerks:
+- Perk: 2CFCAD:Starfield.esm
+  RequiredCount: 1
+IconSource: 29B05C:Starfield.esm
+NNAM: 0
+MenuSortOrder: 1
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm
+RequiredProjects:
+- 389F01:Starfield.esm

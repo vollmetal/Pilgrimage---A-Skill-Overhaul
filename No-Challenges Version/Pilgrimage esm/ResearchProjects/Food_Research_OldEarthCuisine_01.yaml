@@ -1,0 +1,21 @@
+FormKey: 389F01:Starfield.esm
+EditorID: Food_Research_OldEarthCuisine_01
+Name:
+  TargetLanguage: English
+  Value: Old Earth Cuisine 1
+Description:
+  TargetLanguage: English
+  Value: Discover how to prepare a Reuben and Meatloaf at a Cooking Station.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 29B033:Starfield.esm
+  RequiredCount: 3
+- Resource: 29B03B:Starfield.esm
+  RequiredCount: 2
+- Resource: 29B02A:Starfield.esm
+  RequiredCount: 2
+IconSource: 29B05B:Starfield.esm
+NNAM: 0
+MenuSortOrder: 0
+TNAM: 0
+CategoryKeyword: 2956BE:Starfield.esm

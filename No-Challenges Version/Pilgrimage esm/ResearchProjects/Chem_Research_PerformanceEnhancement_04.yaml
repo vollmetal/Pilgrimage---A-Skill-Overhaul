@@ -1,0 +1,30 @@
+FormKey: 389EF2:Starfield.esm
+EditorID: Chem_Research_PerformanceEnhancement_04
+Name:
+  TargetLanguage: English
+  Value: Performance Enhancement 4
+Description:
+  TargetLanguage: English
+  Value: Discover how to create Frostwolf at a Pharmaceutical Lab.
+WorkbenchKeyword: 29B044:Starfield.esm
+Resources:
+- Resource: 077825:Starfield.esm
+  RequiredCount: 20
+- Resource: 2C5884:Starfield.esm
+  RequiredCount: 10
+- Resource: 29A85E:Starfield.esm
+  RequiredCount: 10
+- Resource: 2A9DE7:Starfield.esm
+  RequiredCount: 10
+- Resource: 143CB2:Starfield.esm
+  RequiredCount: 8
+RequiredPerks:
+- Perk: 2CE2C0:Starfield.esm
+  RequiredCount: 1
+IconSource: 2995A1:Starfield.esm
+NNAM: 0
+MenuSortOrder: 3
+TNAM: 0
+CategoryKeyword: 29B045:Starfield.esm
+RequiredProjects:
+- 389EF1:Starfield.esm
